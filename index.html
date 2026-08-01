@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+      <link href="./src/output.css" rel="stylesheet">
+</head>
+<body>
+    <header class="py-4 border-b border-c-border mb-6" >
+        <div class="container row justify-between ">
+            <div>
+                <a href="./index.html" class="text-2xl font-bold leading-6 ">TechNest</a>
+            </div>
+            <nav class="hidden md:block">
+                <ul class="row gap-6">
+                    <li>
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+
+                      <li>
+                        <a  href="#" class="nav-link">Products</a>
+                     </li>
+
+                      <li>
+                         <a  href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="hidden md:block">
+                <form class="relative mr-4 ">
+                    <label for="search"></label>
+                    <input type="search" id="search" name="search" placeholder="Search tech..." class=" bg-[#F0F3FF] border-[#C6C6CD] border pt-2.25 pb-2.5 pl-15 rounded-[9999px]" >
+                    <button type="submit" class="absolute top-3.25 left-4.5 ">
+                        <img src="./src/imgs/search.svg" alt="search-icon" class="w-4.5 h-4.5"/>
+                    </button>
+                </form>
+
+
+            </div>
+            <div>
+                <ul class=" row gap-4 ">
+
+                    <li>
+                        <a class="block md:hidden">
+                            <img src="./src/imgs/search-icon.svg" class="w-fit h-fit "/>
+                        </a>
+                    </li>
+
+                   <li>
+                    <a class="hidden md:block">
+                        <img src="./src/imgs/heart-icon.svg" alt="heart-icon" class="w-fit h-fit"/>
+                    </a>
+                   </li>
+
+                    <li>
+                    <a>
+                        <img src="./src/imgs/cart-icon.svg" alt="cart-icon" class="w-fit h-fit "/>
+                    </a>
+                   </li>
+
+                    <li>
+                    <a class="hidden md:block">
+                        <img src="./src/imgs/avater.svg" alt="avater-icon" class="w-fit h-fit"/>
+                    </a>
+                   </li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme{
+    --color-bg-footer:#131B2E;
+    --color-bg-button:#0051D5;
+    --color-c-border:#C6C6CD;
+    --font-inter:"Inter";
+
+    --breakpoint-xs:400px;
+}
+@layer base{
+    body{
+        font-family: var(--font-inter);
+
+    }
+    .container{
+      @apply mx-auto;
+      @apply px-2;
+      @apply md:px-0;
+    }
+    h1{
+     font-size:3rem;
+     font-weight: 700;
+     line-height: 3.3rem;
+    }
+    button {
+       cursor: pointer;
+    }
+}
+
+@utility row{
+    @apply flex items-center;
+}
+@utility nav-link{
+    @apply  inline-block text-sm text-[#45464D] font-medium leading-[19.6px] hover:text-[#0051D5] transition-all duration-500 hover:scale-100 border-b-2 border-transparent hover:border-[#0051D5] pb-1;
+}
