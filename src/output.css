@@ -2590,6 +2590,9 @@
     .lg\:justify-around {
       justify-content: space-around;
     }
+    .lg\:justify-between {
+      justify-content: space-between;
+    }
     .lg\:gap-0 {
       gap: 0px;
     }
