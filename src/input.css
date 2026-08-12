@@ -97,6 +97,12 @@
 @utility hover-card-m{
      @apply overflow-hidden transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:-translate-y-1;
 }
+@utility hover-icon{
+    @apply transition-all duration-300 hover:bg-bg-button hover:scale-110;
+}
+@utility hover-li{
+    @apply transition-colors duration-200 hover:text-white cursor-pointer;
+}
 
 
 @utility hover-img{
