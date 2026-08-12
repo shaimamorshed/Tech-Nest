@@ -1,81 +1,101 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechNest</title>
+    <title>TechNest-Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 
-      <link href="./src/output.css" rel="stylesheet">
+    <link href="./src/output.css" rel="stylesheet">
 </head>
+
 <body>
-    <header class="py-4 border-b border-c-border mb-6" >
+    <header class="sticky top-0 z-50 px-16 py-4 border-b border-c-border bg-[#F9F9FF] mb-6 ">
         <div class="container row justify-between ">
-            <div>
-                <a href="./index.html" class="text-2xl font-bold leading-6 ">TechNest</a>
+            <div class="row  gap-6 lg:gap-12">
+                <div>
+                    <a href="./index.html" class="text-2xl font-bold leading-6 ">TechNest</a>
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="row gap-4 lg:gap-6">
+                        <li>
+                            <a href="#" class=" text-bg-button border-bg-button nav-link">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="./products.html" class="nav-link">Products</a>
+                        </li>
+
+                        <li>
+                            <a href="./contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
             </div>
-            <nav class="hidden md:block">
-                <ul class="row gap-6">
-                    <li>
-                        <a href="#" class="nav-link">Home</a>
-                    </li>
 
-                      <li>
-                        <a  href="#" class="nav-link">Products</a>
-                     </li>
+            <div class="row gap-4">
+                <div class="row hidden lg:flex bg-[#F0F3FF] py-2 pr-4 rounded-[9999px] border-c  ">
 
-                      <li>
-                         <a  href="#" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="hidden md:block">
-                <form class="relative mr-4 ">
-                    <label for="search"></label>
-                    <input type="search" id="search" name="search" placeholder="Search tech..." class=" bg-[#F0F3FF] border-[#C6C6CD] border pt-2.25 pb-2.5 pl-15 rounded-[9999px]" >
-                    <button type="submit" class="absolute top-3.25 left-4.5 ">
-                        <img src="./src/imgs/search.svg" alt="search-icon" class="w-4.5 h-4.5"/>
+                    <button type="submit">
+                        <img src="./src/imgs/search.svg" alt="search" class="w-fit h-fit">
                     </button>
-                </form>
 
+                    <input type="search" id="search" name="search" placeholder="Search tech..."
+                        class="flex-1 px-3 outline-none ">
 
-            </div>
-            <div>
-                <ul class=" row gap-4 ">
+                </div>
+
+                <ul class="row gap-3 lg:gap-4 ">
 
                     <li>
                         <a class="block md:hidden">
-                            <img src="./src/imgs/search-icon.svg" class="w-fit h-fit "/>
+                            <img src="./src/imgs/search-icon.svg" class="w-fit h-fit " />
                         </a>
                     </li>
 
-                   <li>
-                    <a class="hidden md:block">
-                        <img src="./src/imgs/heart-icon.svg" alt="heart-icon" class="w-fit h-fit"/>
-                    </a>
-                   </li>
+
 
                     <li>
-                    <a>
-                        <img src="./src/imgs/cart-icon.svg" alt="cart-icon" class="w-fit h-fit "/>
-                    </a>
-                   </li>
+                        <a class="hidden md:block hover-grow">
+                            <img src="./src/imgs/heart-icon.svg" alt="Wishlist" class="w-fit h-fit" />
+                        </a>
+                    </li>
 
                     <li>
-                    <a class="hidden md:block">
-                        <img src="./src/imgs/avater.svg" alt="avater-icon" class="w-fit h-fit"/>
-                    </a>
-                   </li>
+                        <a href="./cart.html" class="relative block hover-grow">
+                            <img src="./src/imgs/cart-icon.svg" alt="Cart" class="w-fit h-fit " />
+                            <span
+                                class=" hidden lg:flex absolute -top-1.5 -right-1.5 w-4 h-4 rounded-full bg-bg-button text-white text-[10px] leading-3.75 font-bold  items-center justify-center">2</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./profile.html" class="hidden md:block hover-grow">
+                            <img src="./src/imgs/avater.svg" alt="Account" class="w-fit h-fit" />
+                        </a>
+                    </li>
                 </ul>
+
             </div>
 
         </div>
+
     </header>
 
 
+
+
+
+
+
+
 </body>
+
 </html>

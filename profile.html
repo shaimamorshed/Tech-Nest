@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+
+  <link href="./src/output.css" rel="stylesheet">
+</head>
+
+
+
+  <header class=" py-4 border-b border-c-border ">
+    <div class="container row justify-between ">
+      <div class="gap-10 row">
+
+        <div>
+          <a href="./index.html" class="text-2xl font-bold leading-[31.2px] ">TechNest</a>
+        </div>
+
+        <nav class="hidden md:block">
+          <ul class="row gap-8">
+            <li>
+              <a href="#" class="nav-link-Contact tracking-normal">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link-Contact tracking-normal ">Products</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link-Contact tracking-normal">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+
+      </div>
+
+      <div class="hidden md:block">
+        <ul class=" row gap-6">
+
+          <li>
+            <a>
+              <img src="./src/imgs/heart-b.svg" alt="heart-icon" class="w-fit h-fit" />
+            </a>
+          </li>
+
+
+
+          <li>
+            <a>
+              <img src="./src/imgs/cart-b.svg" alt="cart-icon" class="w-fit h-fit" />
+            </a>
+          </li>
+
+          <li>
+            <a>
+              <img src="./src/imgs/profile-icon.png" alt="profile-icon"
+                class=" border-2  border-bg-button rounded-[9999px] w-fit h-fit" />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="block md:hidden">
+        <ul class=" row gap-4">
+
+          <li>
+            <a>
+              <img src="./src/imgs/heart-bl.svg" alt="heart-icon" class="w-fit h-fit" />
+            </a>
+          </li>
+
+
+
+          <li>
+            <a>
+              <img src="./src/imgs/cart-bl.svg" alt="cart-icon" class="w-fit h-fit" />
+            </a>
+          </li>
+
+          <li>
+            <a>
+              <img src="./src/imgs/profile-b.svg" alt="profile-icon" class=" w-fit h-fit" />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="hidden md:block">
+    <div class="container gap-6 py-20  row items-start ">
+      <section>
+        <div class=" bg-white flex flex-col gap-8 p-6 border-c rounded-xl">
+          <div class="flex flex-col gap-2 ">
+            <button class="bg-[#E7EEFF] relative row  gap-3 py-3 pr-[119.18px] pl-4 w-[221.98px]">
+              <div class="w-1 h-6 absolute left-0 rounded-tr  rounded-br bg-bg-button"></div>
+              <img src="./src/imgs/avater-b.svg" class="w-4 h-4" />
+              <span class="text-bg-button font-bold text-base leading-6 ">My Info</span>
+
+            </button>
+
+            <button class=" row gap-3 py-3 pr-[98.37px] pl-4 rounded-xl ">
+
+              <img src="./src/imgs/orders.svg" class="w-4.5 h-5">
+              <p>My Orders</p>
+            </button>
+
+            <button class=" row gap-3 py-3 pr-[98.37px] pl-4 rounded-xl ">
+
+              <img src="./src/imgs/heart-icon.svg" class="w-5 h-[18.35px]" />
+              <p>Wishlist</p>
+            </button>
+
+            <button class=" row gap-3 py-3 pr-[98.37px] pl-4 rounded-xl ">
+
+              <img src="./src/imgs/address.svg" class="w-4 h-5" />
+              <p>Addresses</p>
+            </button>
+
+          </div>
+
+          <div class=" w-[230px] flex flex-col gap-8 border-t border-c-border pt-8">
+            <button class="row gap-3 py-3 px-4 rounded-xl ">
+              <img src="./src/imgs/sign-out.svg" class="w-4.5 h-4.5" />
+              <span class="text-[#BA1A1A] font-normal text-base leading-6">Sign Out</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+
+      <section class=" Content-Area">
+        <div class="flex flex-col gap-6">
+
+
+          <div class=" bg-[#FFFFFF] border-c flex flex-col gap-20 p-12 rounded-xl ">
+
+            <div class="row  gap-20">
+
+              <div class="relative w-32 h-32">
+                <div class="  rounded-[9999px]  overflow-hidden border-4 border-[#E7EEFF] ">
+                  <img src="./src/imgs/alex.webp" class="w-full h-full object-cover ">
+                </div>
+
+
+
+                <div class="bg-bg-button absolute bottom-0 right-0  row justify-center  rounded-[9999px] w-10 h-10">
+                  <img src="./src/imgs/camera-2.svg" class=" w-[16.67px] h-3.75">
+                </div>
+
+              </div>
+
+
+              <div class="flex flex-col">
+                <h1 class="font-semibold text-[32px] leading-[38.4px]">Alex Thompson</h1>
+                <p class="mb-4">alex.thompson@technest.com</p>
+                <span
+                  class="bg-[#DBE1FF] text-[#00174B] rounded-[9999px] py-1 px-3 font-normal text-base leading-6 w-[158.130px]">Premium
+                  Member</span>
+
+              </div>
+
+            </div>
+
+
+
+            <form class="grid grid-cols-2 gap-6">
+              <div class="flex flex-col gap-2">
+                <label class="text-p-color text-base font-normal leading-6">First Name</label>
+                <input type="text" value="Alex" class="input  text-tx-color font-normal text-base leading-6 py-3 ">
+              </div>
+
+              <div class="flex flex-col gap-2">
+                <label class="text-p-color text-base font-normal leading-6">Last Name</label>
+                <input type="text" value="Thompson" class="input  text-tx-color font-normal text-base leading-6 py-3  ">
+              </div>
+
+              <div class="flex flex-col gap-2">
+                <label class="text-p-color text-base font-normal leading-6">Email Address</label>
+                <input type="email" value="alex.thompson@technest.com "
+                  class="input text-tx-color font-normal text-base leading-6 py-3 ">
+              </div>
+
+              <div class="flex flex-col gap-2">
+                <label class="text-p-color text-base font-normal leading-6">Phone Number</label>
+                <input type="tel" value="+1 (555) 0123-4567"
+                  class="input text-tx-color font-normal text-base leading-6 py-3 ">
+              </div>
+
+              <div class="col-span-2 flex justify-end">
+                <button type="submit"
+                  class="bg-[#0051D5] text-white font-medium text-base leading-6 px-8 py-3 rounded-lg">Save
+                  Changes</button>
+              </div>
+            </form>
+
+
+          </div>
+
+
+          <div class="flex flex-col p-6 rounded-xl border-c bg-[#FFFFFF]">
+            <h3 class=" text-tx-color pt-4 font-semibold text-2xl leading-[31.2px] ">Security </h3>
+            <div class="row justify-between py-4 border-b border-c-border">
+              <div class="flex flex-col ">
+                <span class="text-[#111C2D] font-normal text-base leading-6">Password </span>
+                <p class="text-sm leading-5"> Last changed 3 months ago</p>
+              </div>
+
+              <button class=" text-bg-button font-normal text-base leading-6 ">Change Password</button>
+
+            </div>
+
+            <div class="row justify-between py-4">
+              <div class="flex flex-col ">
+                <span class="text-[#111C2D] font-normal text-base leading-6">Two-Factor Authentication </span>
+                <p class="text-sm leading-5"> Currently enabled via SMS</p>
+              </div>
+
+
+              <button class=" text-bg-button font-normal text-base leading-6 ">Manage</button>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+
+      </section>
+
+
+    </div>
+
+  </main>
+
+  <main class="block md:hidden">
+
+    <section class="pt-12 px-4 bg-[#F0F3FF]">
+      <div class="container">
+        <div class="col text-center items-center">
+
+          <div class="relative w-24 h-24">
+
+            <img src="./src/imgs/Alex-mobile.webp" alt="Alex Thompson"
+              class="w-full h-full rounded-[9999px] object-cover border-4 border-white shadow-[0_4px_6px_-4px_rgba(0,0,0,0.1),0_10px_15px_-3px_rgba(0,0,0,0.1)]">
+
+            <button
+              class="absolute bottom-0 right-0  bg-bg-button rounded-[9999px] row justify-center  pt-2 px-2 pl-3.5  shadow-[0_2px_4px_-2px_rgba(0,0,0,0.1),0_4px_6px_-1px_rgba(0,0,0,0.1)]">
+
+              <img src="./src/imgs/edit-pencil.svg" alt="Edit" class="w-fit h-fit">
+            </button>
+
+          </div>
+
+          <div class="col pt-4 mb-6">
+            <h2 class="h2-sm ">Alex Thompson</h2>
+            <p class="opacity-70">alex.thompson@techmail.com</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="border-b border-c-border bg-[#F9F9FF]">
+      <div class="container grid grid-cols-3 ">
+
+        <button class="relative col pt-5 px-2 pb-4.75 text-sm font-medium leading-[19.6px] text-bg-button">
+          <span class="span-proprites">My Info</span>
+          <div class="absolute bottom-0 left-0 w-full h-0.5 bg-bg-button"></div>
+        </button>
+
+        <button class="relative col pt-[18.5px] px-2 pb-[17.5px] text-sm font-medium leading-[19.6px] text-[#76777D]">
+          <span class="span-proprites">My Orders</span>
+        </button>
+
+        <button class="relative col pt-[18.5px] px-2 pb-[17.5px] text-sm font-medium leading-[19.6px] text-[#76777D]">
+          <span class="span-proprites text-p-color opacity-80">Wishlist</span>
+        </button>
+
+      </div>
+
+    </section>
+
+    <section class="py-12 px-4">
+      <div class="container col gap-6">
+
+        <div class="col card-lg shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)]">
+
+          <div class="row gap-2">
+            <img src="./src/imgs/id-card.svg" alt="" class="w-fit h-fit">
+            <h3 class="h3-sm">Personal Details</h3>
+          </div>
+
+          <form class="col gap-6">
+            <div class="col gap-2">
+              <label for="fullName" class="text-sm font-medium text-p-color">Full Name</label>
+              <input type="text" id="fullName" name="fullName" value="Alex Thompson" class="input-sm">
+            </div>
+
+            <div class="col gap-2">
+              <label for="email" class="text-sm font-medium text-p-color">Email Address</label>
+              <input type="email" id="email" name="email" value="alex.thompson@techmail.com" class="input-sm">
+            </div>
+
+            <div class="col gap-2">
+              <label for="phone" class="text-sm font-medium text-p-color">Phone Number</label>
+              <input type="tel" id="phone" name="phone" value="+1 (555) 123-4567" class="input-sm">
+            </div>
+          </form>
+
+
+        </div>
+
+        <div class="col card-lg shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] mt-6">
+
+          <div class="row gap-2">
+            <img src="./src/imgs/security.svg"  class="w-fit h-fit">
+            <h3 class="h3-sm">Security</h3>
+          </div>
+
+          <div class="col gap-4 pb-6">
+
+            <div class="row justify-between p-3 rounded-lg">
+              <div class="row gap-4">
+                <div class="row rounded-[9999px] w-10 h-10 justify-center bg-[#316BF3]/10">
+                   <img src="./src/imgs/key.svg"  class="w-fit h-fit">
+                </div>
+
+                <div class="col gap-[0.01px]">
+                  <span class="span-proprites">Change Password</span>
+                  <span class="font-normal text-xs leading-4 text-p-color opacity-70">Last updated 3 months ago</span>
+                </div>
+              </div>
+              <img src="./src/imgs/next-bl.svg"  class="w-fit h-fit">
+            </div>
+
+             <div class="row justify-between p-3 rounded-lg">
+                 <div class="row gap-4">
+                <div class="row rounded-[9999px] w-10 h-10 justify-center bg-[#316BF3]/10">
+                <img src="./src/imgs/silent.svg" class="w-fit h-fit">
+                </div>
+
+                <div class="col gap-[0.01px]">
+                   <span class="span-proprites">Two-Factor Auth</span>
+                 <span class="font-normal text-xs leading-4 text-p-color opacity-70">Enabled (SMS + Auth App)</span>
+                </div>
+              </div>
+               <img src="./src/imgs/next-bl.svg"  class="w-fit h-fit">
+             </div>
+
+             <div class="row justify-between p-3 rounded-lg">
+                 <div class="row gap-4">
+                   <div class="row rounded-[9999px] w-10 h-10 justify-center bg-[#316BF3]/10">
+                    <img src="./src/imgs/activity.svg" class="w-fit h-fit">
+                   </div>
+
+
+
+               <div class="col gap-[0.01px]">
+                 <span class="span-proprites">Login Activity</span>
+                   <span class="font-normal text-xs leading-4 text-p-color opacity-70">3 active devices</span>
+                </div>
+                </div>
+
+              <img src="./src/imgs/next-bl.svg"  class="w-fit h-fit">
+             </div>
+
+          </div>
+
+          <div class="col border-t border-c-border gap-4 pt-6">
+
+          <button
+            class="bg-black text-white text-sm font-medium py-4 rounded-[9999px] shadow-[0_2px_4px_-2px_rgba(0, 0, 0, 0.1),0_4px_6px_-1px_rgba(0, 0, 0, 0.1)] transition-all duration-300 hover:bg-[#1a1a1a] hover:shadow-md active:scale-95">
+            Update All Settings
+          </button>
+
+          <button class="text-[#BA1A1A] text-sm font-medium py-4 rounded-[9999px] border border-[#BA1A1A]/30 transition-colors duration-200 hover:text-[#93000A]  active:scale-95 ">
+            Delete Account
+          </button>
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <footer class="bg-bg-footer hidden md:block ">
+    <div class="container grid grid-cols-4 gap-6 px-16  py-12">
+
+      <div>
+        <h3 class="text-white font-bold text-2xl leading-[31.2px] mb-4">TechNest</h3>
+        <p class="text-[#7C839B] font-normal text-base leading-6">
+          Precision-engineered electronics for the<br>modern professional.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-bold text-base leading-6 mb-4">Shop</h4>
+        <ul class="flex flex-col gap-4 text-base font-normal leading-6 text-[#7C839B]">
+          <a>Computers</a>
+          <a>Mobile Devices</a>
+          <a>Accessories</a>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-bold text-base leading-6 mb-4">Company</h4>
+        <ul class="flex flex-col gap-4 text-base font-normal leading-6 text-[#7C839B]">
+          <a>About Us</a>
+          <a>Contact</a>
+          <a>Shipping Policy</a>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-bold text-base leading-6 mb-4">Legal</h4>
+        <ul class="flex flex-col gap-4 text-base font-normal leading-6 text-[#7C839B]">
+          <li>Privacy Policy</li>
+          <li>Terms of Service</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class=" border-t  border-[#7C839B33] py-6 ">
+
+      <p class="container px-16 text-[#7C839B]">© 2024 TechNest Electronics. All rights reserved.</p>
+
+    </div>
+  </footer>
+
+  <footer class="bg-[#F9F9FF] block md:hidden ">
+    <div class="container row justify-center gap-[25.2px] border-t border-c-border py-2 px-[28.61px] shadow-[0_4px_6px_-4px_rgba(0, 0, 0, 0.1),0_10px_15px_-3px_rgba(0, 0, 0, 0.1)]">
+      <a class="col justify-center items-center rounded-lg p-2">
+        <img src="./src/imgs/home-icon.svg" class="w-fit h-fit"/>
+        <p>Home</p>
+      </a>
+         <a class="col justify-center items-center rounded-lg p-2">
+        <img src="./src/imgs/products-ic.svg" class="w-fit h-fit"/>
+        <p>Products</p>
+      </a>
+       <a class="col justify-center items-center rounded-lg p-2">
+        <img src="./src/imgs/cart-icon.svg" class="w-fit h-fit"/>
+        <p>Cart</p>
+      </a>
+        <a class="col justify-center items-center rounded-lg p-2">
+        <img src="./src/imgs/profile-b.svg" class="w-fit h-fit"/>
+        <p class="text-bg-button">Profile</p>
+      </a>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

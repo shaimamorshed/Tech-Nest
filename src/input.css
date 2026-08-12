@@ -4,8 +4,10 @@
     --color-bg-footer:#131B2E;
     --color-bg-button:#0051D5;
     --color-c-border:#C6C6CD;
-    --font-inter:"Inter";
+    --color-tx-color:#111C2D;
+    --color-p-color:#45464D;
 
+    --font-inter:"Inter";
     --breakpoint-xs:400px;
 }
 @layer base{
@@ -19,18 +21,133 @@
       @apply md:px-0;
     }
     h1{
+     color:#000000;
      font-size:3rem;
      font-weight: 700;
      line-height: 3.3rem;
+
+    }
+    h2{
+         color:#000000;
+        font-size:1.5rem;
+        font-weight: 600;
+        line-height:1.95rem ;
+    }
+    h3{
+
+        color:#000000;
+        font-size:1rem;
+        font-weight: 400;
+        line-height:1.5rem ;
     }
     button {
        cursor: pointer;
+       border-radius: 0.5rem;
+       padding: 0.5rem 1rem;
+
     }
+    a{
+        cursor: pointer;
+
+    }
+    label{
+        color:#45464D;
+        font-size:0.875rem;
+        font-weight: 500;
+        line-height:1.5rem ;
+    }
+    p{
+     color:#45464D;
+     font-weight: 400;
+     font-size: 1rem;
+     line-height:1.5rem ;
+    }
+
 }
 
 @utility row{
-    @apply flex items-center;
+    @apply flex items-center ;
+}
+@utility col {
+    @apply flex flex-col;
 }
 @utility nav-link{
-    @apply  inline-block text-sm text-[#45464D] font-medium leading-[19.6px] hover:text-[#0051D5] transition-all duration-500 hover:scale-100 border-b-2 border-transparent hover:border-[#0051D5] pb-1;
+    @apply  inline-block text-sm text-p-color font-medium leading-[19.6px] hover:text-bg-button transition-all duration-500 hover:scale-100 border-b-2 border-transparent  pb-1;
 }
+@utility hover-button{
+    @apply  transition-all duration-300 hover:bg-[#003BA8] hover:shadow-lg hover:shadow-blue-500/30 active:scale-95;
+}
+@utility button-properties{
+      @apply rounded-[9999px] text-sm leading-[19.6px] font-bold ;
+}
+
+@utility nav-link-Contact{
+    @apply  inline-block text-base text-p-color font-normal leading-6 hover:text-bg-button transition-all duration-500 ;
+}
+@utility hover-grow {
+    @apply transition-transform duration-200 hover:scale-110;
+}
+@utility hover-a{
+    @apply  transition-colors duration-200 hover:text-[#003BA8] ;
+}
+
+@utility hover-card-xs{
+   @apply  transition-all duration-300 hover:border-[#383b3e] hover:shadow-md hover:-translate-y-0.5 cursor-pointer;
+}
+@utility hover-card-m{
+     @apply overflow-hidden transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:-translate-y-1;
+}
+
+
+@utility hover-img{
+    @apply transition-transform duration-500 hover:scale-110;
+}
+@layer components{
+    .card{
+        @apply bg-white rounded-xl border border-c-border ;
+    }
+    .card-xs{
+        @apply shrink-0 w-24 h-24 bg-white border border-c-border rounded-2xl col items-center justify-center;
+
+    }
+     .card-sm{
+        @apply bg-white rounded-xl border border-c-border p-3 gap-3 ;
+    }
+    .card-lg{
+
+        @apply gap-6 bg-white border border-c-border rounded-xl p-6 ;
+    }
+    .card-m{
+        @apply bg-white rounded-2xl border border-c-border p-4 gap-[4.1px] ;
+    }
+    .input{
+        @apply bg-white rounded-lg border border-c-border py-3.5 px-4;
+    }
+    .input-sm{
+        @apply bg-[#F9F9FF] rounded-lg border border-[#76777D] py-3 px-6;
+    }
+    .border-c{
+        @apply border border-c-border ;
+    }
+    .h1-sm{
+
+     @apply  text-tx-color font-semibold text-2xl leading-[31.2px];
+
+    }
+    .h2-sm{
+
+     @apply  text-tx-color font-semibold text-2xl leading-[31.2px];
+    }
+    .h3-sm{
+        @apply  text-tx-color font-semibold text-2xl leading-[31.2px];
+    }
+    .h4-sm{
+         @apply  text-sm font-medium leading-[19.6px];
+    }
+
+    .span-proprites{
+       @apply font-medium text-sm leading-[19.6px];
+    }
+
+}
+

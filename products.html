@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+ <body>
+     <header class="  border-b border-c-border " >
+        <div class="container  row justify-between py-4  ">
+          <div class="gap-8 row">
+            <div>
+                <a href="./index.html" class="text-2xl font-bold leading-[31.2px] ">TechNest</a>
+            </div>
+            <nav class="hidden md:block">
+                  <ul class="row gap-6">
+                    <li>
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+
+                      <li>
+                        <a  href="#" class="nav-link  text-[#0051D5] border-[#0051D5] ">Products</a>
+                     </li>
+
+                      <li>
+                         <a  href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+
+            <div class=" row gap-4 ">
+
+            <div class="row  bg-[#F0F3FF] py-2 pr-4 rounded-[9999px] border-c  ">
+
+              <button type="submit">
+                <img src="./src/imgs/search.svg" alt="search-icon" class="w-4.5 h-4.5">
+              </button>
+
+              <input  type="search" id="search" name="search" placeholder="Search tech..."
+                class="flex-1  " >
+
+             </div>
+
+
+
+                <ul class=" row gap-4 ">
+
+                   <li>
+                    <a>
+                        <img src="./src/imgs/heart-bl.svg" alt="heart-icon" class="w-5 h-[18.35px]"/>
+                    </a>
+                   </li>
+
+                    <li>
+                    <a class="block">
+                        <img src="./src/imgs/cart-bl.svg" alt="cart-icon" class="w-fit h-fit "/>
+                    </a>
+                   </li>
+
+                    <li>
+                    <a class="hidden md:block">
+                        <img src="./src/imgs/product-icon.png"  class=" border-c  rounded-[9999px] w-7.5 h-7.5"/>
+                    </a>
+                   </li>
+                </ul>
+            </div>
+
+        </div>
+     </header>
+
+     <main>
+              <section class="py-6">
+
+                <div class="container row justify-between">
+
+                    <nav class="row gap-2">
+                        <a class="text-p-color font-medium text-sm leading-[19.6px]">Home</a>
+                        <img src="./src/imgs/next-bl.svg" class="w-[4.93px] h-2 ">
+                        <span class=" font-semibold text-sm leading-[19.6px]">Computers & Tablets</span>
+
+
+                    </nav>
+
+                    <div>
+                        <p  class="font-normal text-sm leading-[19.6px]">Showing <span class="text-black font-normal text-sm leading-[19.6px]">1–24</span>  of 156 products</p>
+                    </div>
+
+                </div>
+
+              </section>
+
+               <section class="py-6">
+                  <div class="container">
+                    <div class="grid grid-cols-[256px_1fr] gap-6">
+
+                 <aside class="flex flex-col gap-6">
+
+                <div class="gap-3">
+                    <h3 class=" text-tx-color pb-2 border-b border-[#E5E7EB] font-normal text-lg leading-6.75 mb-3">Category</h3>
+                    <div class="flex flex-col gap-2 ">
+                        <label class="row gap-2 text-base text-tx-color font-normal leading-6">
+                            <input type="checkbox" checked class=" bg-white  border-c rounded-sm"> Laptops & Notebooks
+                        </label>
+
+                           <label class="row gap-2 text-base text-tx-color font-normal leading-6">
+                            <input type="checkbox" class=" bg-white  border-c rounded-sm"> Desktops & Towers
+                        </label>
+
+                            <label class="row gap-2 text-base text-tx-color font-normal leading-6">
+                            <input type="checkbox" class=" bg-white  border-c rounded-sm"> Tablet PC
+                        </label>
+
+                            <label class="row gap-2 text-base text-tx-color font-normal leading-6">
+                            <input type="checkbox" class=" bg-white  border-c rounded-sm"> Components
+                        </label>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="pb-2 border-b border-[#E5E7EB] font-normal text-lg leading-6.75 mb-6.5">Price Range</h3>
+
+                      <input class="w-[256px] h-1 rounded-lg bg-[#DEE8FF] mb-4">
+
+                     <div class=" w-[256px] row justify-between">
+
+                          <div class="w-[66.95px] flex justify-center bg-[#E7EEFF] rounded-sm border-c px-2 py-1">
+                            <span>$100</span>
+                            </div>
+
+                        <span class="text-[#76777D] font-medium text-sm leading-[19.6px]">to</span>
+
+                        <div class="w-[66.95px] flex justify-center bg-[#E7EEFF] rounded-sm border-c px-2 py-1">
+                            <span>$5,000 </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gap-3">
+                   <h3 class="text-tx-color pb-2 border-b border-[#E5E7EB] font-normal text-lg leading-6.75 mb-3">Brand</h3>
+                    <div class="flex flex-col gap-2">
+
+                          <label class="row gap-2 text-base text-tx-color font-normal leading-6">
+                            <input type="checkbox"> TechCore
+                        </label>
+
+                         <label class="row gap-2 text-base text-tx-color font-normal leading-6">
+                            <input type="checkbox" checked> Nexus Systems
+                        </label>
+
+                          <label class="row gap-2 text-base text-tx-color font-normal leading-6">
+                            <input type="checkbox"> Peak Dynamics
+                        </label>
+
+                          <label class="row gap-2 text-base text-tx-color font-normal leading-6">
+                            <input type="checkbox"> UltraThin
+                        </label>
+                    </div>
+                </div>
+
+                <div class="gap-3">
+                      <h3 class=" text-tx-color pb-2 border-b border-[#E5E7EB] font-normal text-lg leading-6.75 mb-3">Rating</h3>
+
+                      <div class="row gap-1">
+                        <div>
+                            <img src="./src/imgs/star-r.svg" class="w-5 h-4.75">
+                        </div>
+                         <div>
+                            <img src="./src/imgs/star-r.svg" class="w-5 h-4.75">
+                        </div>
+                         <div>
+                            <img src="./src/imgs/star-r.svg" class="w-5 h-4.75">
+                        </div>
+                         <div>
+                            <img src="./src/imgs/star-r.svg" class="w-5 h-4.75">
+                        </div>
+                         <div>
+                            <img src="./src/imgs/star-rw.svg" class="w-5 h-4.75">
+                        </div>
+
+                        <span class="font-medium text-sm leading-[19.6px] items-center">& Up</span>
+
+
+                      </div>
+
+                </div>
+
+                <div class="gap-3">
+                     <h3 class=" text-tx-color pb-2 border-b border-[#E5E7EB] font-normal text-lg leading-6.75 mb-3">Finish</h3>
+                    <div class="flex gap-2">
+                        <span class="w-6 h-6 rounded-[9999px] bg-[#1E293B] shadow-[0_0_0_2px_#FFFFFF,0_0_0_6px_#0051D5]"></span>
+                        <span class="w-6 h-6 rounded-[9999px] bg-[#CBD5E1]"></span>
+                        <span class="w-6 h-6 rounded-[9999px] bg-[#F8FAFC]  border-c"></span>
+                        <span class="w-6 h-6 rounded-[9999px] bg-[#475569]"></span>
+                    </div>
+                </div>
+
+                </aside>
+
+
+            <div class="flex flex-col gap-6">
+
+
+                <div class="row bg-[#F0F3FF] justify-between p-4 rounded-xl ">
+                    <div class="row gap-2">
+                        <span class="text-sm text-[#76777D] font-medium leading-[19.6px] pr-2">Filters:</span>
+
+                        <div class="bg-bg-button row gap-[3.99px] rounded-[9999px]  px-3 py-1 ">
+                            <span class=" text-white text-xs font-semibold leading-3">Laptops</span>
+                            <img src="./src/imgs/delete.svg" class=" w-[8.17px] h-[8.17px]">
+                        </div>
+                         <div class="bg-bg-button row gap-[3.99px] rounded-[9999px]  px-3 py-1 ">
+                               <span class="text-white text-xs font-semibold leading-3">Nexus Systems</span>
+                               <img src="./src/imgs/delete.svg" class=" w-[8.17px] h-[8.17px]">
+                         </div>
+
+                        <button class="text-xs font-semibold leading-3 items-center text-bg-button pl-2">Clear All</button>
+                    </div>
+
+
+                    <div class="row gap-4">
+                    <div class=" row input py-2  pl-4 gap-4 ">
+                        <span class="font-medium text-sm leading-[19.6px]">Sort by: Popularity</span>
+                        <img src="./src/imgs/down-g.svg" class="w-3 h-[7.4px]"/>
+                    </div>
+
+                    <div class="flex border-c rounded-lg bg-white ">
+                        <button class="bg-[#DBE1FF] px-2 pt-2 pb-2.5 ">
+                            <img src="./src/imgs/cards.svg" class="w-4.5 h-4.5">
+                        </butto>
+
+                         <button class="bg-white  px-2 pt-2 pb-2.5">
+                              <img src="./src/imgs/list-view.svg" class="w-5 h-4">
+                        </button>
+
+
+
+                    </div>
+                    </div>
+
+                </div>
+
+
+                <div class="grid grid-cols-3 gap-6">
+
+                    <!-- Card 1 -->
+                    <div class="card ">
+                        <div class="relative bg-[#F1F5F9]">
+                            <span class="absolute top-2 left-2 bg-[#BA1A1A] text-white text-xs font-semibold  leading-3 px-2 py-1 rounded-[9999px]">Sale -15%</span>
+
+                            <div class="absolute row justify-center w-8 h-8 top-2 right-2 rounded-[9999px] bg-white ">
+                                <img src="./src/imgs/heart-bl.svg" class="w-[16.67px] h-[15.29px]" >
+                            </div>
+                            <img src="./src/imgs/Nexus-ltraBook.webp" class=" w-full  h-full object-contain ">
+                        </div>
+                        <div class="p-4 flex flex-col ">
+                            <div class="flex justify-between  mb-2 ">
+                                <p class="text-xs text-[#76777D] uppercase font-semibold tracking-[0.6px] leading-3">Nexus Systems</p>
+                                <div class="row gap-1 justify-center">
+                                    <img src="./src/imgs/star-r.svg" class="w-[11.67px] h-[11.08px]" />
+                                    <span class="text-tx-color font-semibold text-xs leading-3 tracking-[0.6px]">4.8</span>
+
+                                </div>
+                            </div>
+
+                                <h4 class="text-tx-color row justify-center text-lg leading-[22.5px]  font-normal mb-2">Nexus UltraBook Pro X14</h4>
+
+
+                            <div class="row justify-between">
+                                <div class="flex flex-col">
+                                     <span class="font-bold text-2xl leading-[31.2px] text-tx-color">$1,299.00</span>
+                                         <span class="font-semibold text-[#76777D] text-xs leading-3 line-through">$1,499.00</span>
+                                </div>
+
+                                <button class="bg-bg-button w-10 h-10 row justify-center  p-2 rounded-lg shadow-[0_2px_4px_-2px_rgba(0,0,0,0.1)] ">
+                                    <img src="./src/imgs/cart-w.svg" class="w-[20.7px] h-5.25 ">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="card ">
+                        <div class="relative bg-[#F1F5F9]">
+                            <span class="absolute top-2 left-2 bg-bg-button text-white text-xs font-semibold  leading-3 px-3 py-1 rounded-[9999px]">New Arrival</span>
+
+                            <div class="absolute row justify-center w-8 h-8 top-2 right-2 rounded-[9999px] bg-white ">
+                                <img src="./src/imgs/heart-bl.svg" class="w-[16.67px] h-[15.29px]" >
+                            </div>
+                            <img src="./src/imgs/coreTab.webp" class=" object-contain ">
+                        </div>
+                        <div class="p-4 flex flex-col ">
+                            <div class="flex justify-between pr-[0.01px] mb-2 ">
+                                <p class="text-xs text-[#76777D] uppercase font-semibold  tracking-[0.6px] leading-3">TECHCORE</p>
+                                <div class="row gap-1 justify-center">
+                                    <img src="./src/imgs/star-r.svg" class="w-[11.67px] h-[11.08px]" />
+                                    <span class="text-tx-color font-semibold text-xs leading-3 tracking-[0.6px]">4.9</span>
+
+                                </div>
+                            </div>
+
+
+
+                                <h4 class="text-tx-color row justify-center text-lg leading-[22.5px]  font-normal mb-2">CoreTab Elite 12.9" Gen 4</h4>
+
+
+                            <div class="row justify-between">
+
+                                     <span class="font-bold text-2xl leading-[31.2px] text-tx-color">$2,450.00</span>
+
+                                        <button class="bg-bg-button w-10 h-10 row justify-center  p-2 rounded-lg shadow-[0_2px_4px_-2px_rgba(0,0,0,0.1)] ">
+                                    <img src="./src/imgs/cart-pro.svg" class="w-[20.7px] h-5.25">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="card ">
+                        <div class="relative bg-[#F1F5F9]">
+
+                            <div class="absolute row justify-center w-8 h-8 top-2 right-2 rounded-[9999px] bg-white ">
+                                <img src="./src/imgs/heart-bl.svg" class="w-[16.67px] h-[15.29px]" >
+                            </div>
+                            <img src="./src/imgs/Apex-work.webp" class=" object-contain ">
+                        </div>
+                        <div class="p-4 flex flex-col ">
+                            <div class="flex justify-between pr-[0.01px] mb-2 ">
+                                <p class="text-xs text-[#76777D] uppercase font-semibold tracking-[0.6px] leading-3">PEAK DYNAMICS</p>
+                                <div class="row gap-1 justify-center">
+                                    <img src="./src/imgs/star-r.svg" class="w-[11.67px] h-[11.08px]" />
+                                    <span class="text-tx-color font-semibold text-xs leading-3 tracking-[0.6px]">4.7</span>
+
+                                </div>
+                            </div>
+
+
+
+                                <h4 class="text-tx-color row justify-center text-lg leading-[22.5px]  font-normal mb-2"  >Apex Workstation Tower Z8</h4>
+
+
+                            <div class="row justify-between">
+
+                                <span class="font-bold text-2xl leading-[31.2px] text-tx-color">$2,450.00</span>
+
+                                 <button class="bg-bg-button w-10 h-10 row justify-center  p-2 rounded-lg shadow-[0_2px_4px_-2px_rgba(0,0,0,0.1)] ">
+                                    <img src="./src/imgs/cart-pro.svg" class="w-[20.7px] h-5.25">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                       <div class="card ">
+                        <div class="relative bg-[#F1F5F9]">
+
+                            <div class="absolute row justify-center w-8 h-8 top-2 right-2 rounded-[9999px] bg-white ">
+                                <img src="./src/imgs/heart-bl.svg" class="w-[16.67px] h-[15.29px]" >
+                            </div>
+                            <img src="./src/imgs/Alpha.webp" class=" object-contain ">
+                        </div>
+                        <div class="p-4 flex flex-col ">
+                            <div class="flex justify-between pr-[0.01px] mb-2 ">
+                                <p class="text-xs text-[#76777D] uppercase font-semibold tracking-[0.6px] leading-3">NEXUS SYSTEMS</p>
+                                <div class="row gap-1 justify-center">
+                                    <img src="./src/imgs/star-r.svg" class="w-[11.67px] h-[11.08px]" />
+                                    <span class="text-tx-color font-semibold text-xs leading-3 tracking-[0.6px]">4.6</span>
+
+                                </div>
+                            </div>
+
+
+
+                                <h4 class="text-tx-color row justify-center text-lg leading-[22.5px]  font-normal mb-2">Alpha Vision Mirrorless X-T</h4>
+
+
+                            <div class="row justify-between">
+
+                                <span class="font-bold text-2xl leading-[31.2px] text-tx-color">$1,899.00</span>
+
+                                  <button class="bg-bg-button w-10 h-10 row justify-center  p-2 rounded-lg shadow-[0_2px_4px_-2px_rgba(0,0,0,0.1)] ">
+                                    <img src="./src/imgs/cart-pro.svg" class="w-[20.7px] h-5.25">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="card">
+                        <div class="relative bg-[#F1F5F9]">
+
+                            <div class="absolute row justify-center w-8 h-8 top-2 right-2 rounded-[9999px] bg-white ">
+                                <img src="./src/imgs/heart-d.svg" class="w-[16.67px] h-[15.29px]" >
+                            </div>
+                            <img src="./src/imgs/QuietStep.webp" class=" object-contain ">
+                        </div>
+                        <div class="p-4 flex flex-col ">
+                            <div class="flex justify-between pr-[0.01px] mb-2 ">
+                                <p class="text-xs text-[#76777D] uppercase font-semibold tracking-[0.6px] leading-3">SOUNDFLOW</p>
+                                <div class="row gap-1 justify-center">
+                                    <img src="./src/imgs/star-r.svg" class="w-[11.67px] h-[11.08px]" />
+                                    <span class="text-tx-color font-semibold text-xs leading-3 tracking-[0.6px]">5.0</span>
+
+                                </div>
+                            </div>
+
+
+
+                                <h4 class="text-tx-color row justify-center text-lg leading-[22.5px]  font-normal mb-2">QuietStep Wireless ANC</h4>
+
+
+                            <div class="row justify-between">
+
+                                     <span class="font-bold text-2xl leading-[31.2px] text-tx-color">$349.00</span>
+
+
+
+                                 <button class="bg-bg-button w-10 h-10 row justify-center  p-2 rounded-lg shadow-[0_2px_4px_-2px_rgba(0,0,0,0.1)] ">
+                                    <img src="./src/imgs/cart-pro.svg" class="w-[20.7px] h-5.25">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                       <div class="card ">
+                        <div class="relative bg-[#F1F5F9]">
+
+                            <div class="absolute row justify-center w-8 h-8 top-2 right-2 rounded-[9999px] bg-white ">
+                                <img src="./src/imgs/heart-d.svg" class="w-[16.67px] h-[15.29px]" >
+                            </div>
+                            <img src="./src/imgs/viewcurve.webp" class=" object-contain ">
+                        </div>
+                        <div class="p-4 flex flex-col ">
+                            <div class="flex justify-between pr-[0.01px] mb-2 ">
+                                <p class="text-xs text-[#76777D] uppercase font-semibold tracking-[0.6px] leading-3">ULTRATHIN</p>
+                                <div class="row gap-1 justify-center">
+                                    <img src="./src/imgs/star-r.svg" class="w-[11.67px] h-[11.08px]" />
+                                    <span class="text-tx-color font-semibold text-xs leading-3 tracking-[0.6px]">4.8</span>
+
+                                </div>
+                            </div>
+
+
+
+                                <h4 class="text-tx-color row justify-center text-lg leading-[22.5px]  font-normal mb-2">ViewCurve 34" OLED Display</h4>
+
+
+                            <div class="row justify-between">
+
+                                     <span class="font-bold text-2xl leading-[31.2px] text-tx-color">$1,199.00</span>
+
+
+
+                                <button class="bg-bg-button w-10 h-10 row justify-center  p-2 rounded-lg shadow-[0_2px_4px_-2px_rgba(0,0,0,0.1)] ">
+                                    <img src="./src/imgs/cart-pro.svg" class="w-[20.7px] h-5.25">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="relative bg-[#F1F5F9]">
+
+                            <div class="absolute row justify-center w-8 h-8 top-2 right-2 rounded-[9999px] bg-white ">
+                                <img src="./src/imgs/heart-d.svg" class="w-[16.67px] h-[15.29px]" >
+                            </div>
+                            <img src="./src/imgs/routerNet.webp" class=" object-contain ">
+                        </div>
+                        <div class="p-4 flex flex-col ">
+                            <div class="flex justify-between pr-[0.01px] mb-2 ">
+                                <p class="text-xs text-[#76777D] uppercase font-semibold tracking-[0.6px] leading-3">LINKLOGIC</p>
+                                <div class="row gap-1 justify-center">
+                                    <img src="./src/imgs/star-r.svg" class="w-[11.67px] h-[11.08px]" />
+                                    <span class="text-tx-color font-semibold text-xs leading-3 tracking-[0.6px]">4.5</span>
+
+                                </div>
+                            </div>
+
+
+
+                                <h4 class="text-tx-color row justify-center text-lg leading-[22.5px]  font-normal mb-2">NetSpeed AX6000 Router</h4>
+
+
+                            <div class="row justify-between">
+
+                                     <span class="font-bold text-2xl leading-[31.2px] text-tx-color">$299.00</span>
+
+
+
+                               <button class="bg-bg-button w-10 h-10 row justify-center  p-2 rounded-lg shadow-[0_2px_4px_-2px_rgba(0,0,0,0.1)] ">
+                                    <img src="./src/imgs/cart-pro.svg" class="w-[20.7px] h-5.25">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                  <div class="card ">
+                        <div class="relative bg-[#F1F5F9]">
+
+                            <div class="absolute row justify-center w-8 h-8 top-2 right-2 rounded-[9999px] bg-white ">
+                                <img src="./src/imgs/heart-d.svg" class="w-[16.67px] h-[15.29px]" >
+                            </div>
+                            <img src="./src/imgs/keyboardNex.webp" class=" object-contain ">
+                        </div>
+                        <div class="p-4 flex flex-col ">
+                            <div class="flex justify-between pr-[0.01px] mb-2 ">
+                                <p class="text-xs text-[#76777D] uppercase font-semibold tracking-[0.6px] leading-3">NEXUS SYSTEMS</p>
+                                <div class="row gap-1 justify-center">
+                                    <img src="./src/imgs/star-r.svg" class="w-[11.67px] h-[11.08px]" />
+                                    <span class="text-tx-color font-semibold text-xs leading-3 tracking-[0.6px]">4.9</span>
+
+                                </div>
+                            </div>
+
+
+
+                                <h4 class="text-tx-color row justify-center text-lg leading-[22.5px]  font-normal mb-2">Nexus Mech-G1 Gaming Keyboard</h4>
+
+
+                            <div class="row justify-between">
+
+                                     <span class="font-bold text-2xl leading-[31.2px] text-tx-color">$159.00</span>
+
+
+                              <button class="bg-bg-button w-10 h-10 row justify-center  p-2 rounded-lg shadow-[0_2px_4px_-2px_rgba(0,0,0,0.1)] ">
+                                    <img src="./src/imgs/cart-pro.svg" class="w-[20.7px] h-5.25">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                    <div class="pt-56.01px flex flex-col gap-4 ">
+                         <p class="text-center font-medium leading-[19.6px]">Showing 8 of 156 products</p>
+
+                      <div class="row justify-center">
+                        <span class="bg-bg-button h-1 w-4 rounded-[9999px]"></span>
+                        <span class=" rounded-[9999px] bg-[#DEE8FF] w-[320px] h-1" ></span>
+
+
+                       </div>
+                      <div class="row justify-center">
+                        <button class="bg-bg-button text-white font-medium  text-sm leading-[19.6px] px-8 py-3 rounded-[9999px]">Load More Products</button>
+                        </div>
+                    </div>
+
+
+
+            </div>
+               </div>
+              </div>
+              </section>
+
+     </main>
+
+     <footer class="bg-bg-footer py-12">
+    <div class="container grid grid-cols-4  gap-6">
+
+
+        <div>
+            <h3 class="text-white font-bold text-2xl leading-[31.2px] mb-4">TechNest</h3>
+            <p class="text-[#FFFFFF] font-normal text-base leading-6 opacity-80">
+               Next-generation hardware for the
+               precision professional and tech
+               enthusiast.
+            </p>
+        </div>
+
+
+        <div class="flex flex-col gap-3">
+            <h5 class="text-[#DBE1FF] font-bold text-sm leading-[19.6px] uppercase">SHOP</h5>
+            <ul class="flex flex-col gap-3 text-base font-normal leading-6 text-white opacity-80">
+                <li>Laptops</li>
+                <li>Tablets</li>
+                <li>Peripherals</li>
+            </ul>
+        </div>
+
+        <div class="flex flex-col gap-3">
+             <h5 class="text-[#DBE1FF] font-bold text-sm leading-[19.6px] uppercase">SUPPORT</h5>
+             <ul class="flex flex-col gap-3 text-base font-normal leading-6 text-white opacity-80">
+                <li>Shipping Policy</li>
+                <li>Returns</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+
+        <div class="flex flex-col gap-3">
+            <h5 class="text-[#DBE1FF] font-bold text-sm leading-[19.6px] uppercase">NEWSLETTER</h5>
+            <p class="text-[#FFFFFF] font-normal text-base leading-6 opacity-80">
+                Stay updated with our latest releases.
+            </p>
+            <div class="flex gap-2">
+                <input type="email" placeholder="Email address" class="input border-[#6B7280] flex-1 w-0 pt-3.25 pb-3.5 px-4 text-sm font-normal">
+                <button class="bg-bg-button px-4 pt-1 pb-3.5 mb-2 rounded-lg row justify-center shrink-0">
+                    <img src="./src/imgs/send-icon.svg" class="w-4.75 h-4">
+                </button>
+            </div>
+        </div>
+
+
+
+        <div class="pt-8 col-span-4 ">
+            <div class=" row justify-between border-t border-white/10 pt-8">
+            <p class="text-white opacity-60 font-medium text-sm leading-[19.6px]">© 2024 TechNest Electronics. All rights reserved.</p>
+            <div class="row gap-6">
+                <img src="./src/imgs/google.svg" class="w-5 h-5">
+                <img src="./src/imgs/comment.svg" class="w-5 h-5">
+                <img src="./src/imgs/announcement.svg" class="w-5 h-4">
+            </div>
+        </div>
+        </div>
+
+
+    </div>
+     </footer>
+
+
+
+
+
+     </body>
+     </html>

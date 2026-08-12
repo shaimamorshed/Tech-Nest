@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+<body>
+
+     <header class="hidden md:block py-4 border-b border-c-border " >
+        <div class="container row justify-between ">
+          <div class="gap-8 row">
+
+            <div>
+                <a href="./index.html" class="text-2xl font-bold leading-[31.2px] ">TechNest</a>
+            </div>
+
+            <nav class="hidden md:block my-1.5">
+                <ul class="row gap-6 ">
+                    <li>
+                        <a href="#" class="nav-link tracking-[0.14px]">Home</a>
+                    </li>
+
+                      <li>
+                        <a  href="#" class="nav-link  tracking-[0.14px] ">Products</a>
+                     </li>
+
+                      <li>
+                         <a  href="#" class="nav-link tracking-normal">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+               </div>
+
+            <div class="hidden md:block">
+                <ul class="row gap-4">
+
+                   <li>
+                    <a>
+                        <img src="./src/imgs/heart-b.svg" alt="heart-icon" class="w-5 h-[18.35px]"/>
+                    </a>
+                   </li>
+
+                    <li>
+                    <a>
+                        <img src="./src/imgs/cart-b.svg" alt="cart-icon" class="w-[19.98px] h-6.5 pb-1.5  "/>
+                    </a>
+                   </li>
+
+                    <li>
+                    <a>
+                        <img src="./src/imgs/avater-b.svg" alt="profile-icon" class=" w-4 h-4"/>
+                    </a>
+                   </li>
+                </ul>
+            </div>
+
+
+     </header>
+
+      <header class="block md:hidden p-4 border-b border-c-border bg-[#F9F9FF]" >
+         <div class="container row justify-between ">
+            <div>
+                <a href="./index.html" class="text-2xl font-bold leading-[31.2px] ">TechNest</a>
+            </div>
+
+
+
+          <div class="block md:hidden">
+                <ul class="row gap-4">
+
+                   <li>
+                    <a>
+                        <img src="./src/imgs/search-bl.svg" class="w-fit h-fit"/>
+                    </a>
+                   </li>
+
+                    <li>
+                    <a>
+                        <img src="./src/imgs/heart-bl.svg" class="w-fit h-fit"/>
+                    </a>
+                   </li>
+
+
+                </ul>
+            </div>
+             </div>
+
+     </header>
+
+      <main class="hidden md:block">
+        <section class="pt-11.75">
+            <div class=" container flex flex-col gap-1 ">
+             <h1 class=" text-[32px] font-semibold leading-[38.4px]">Your Shopping Cart</h1>
+
+            <p>Review your items before proceeding to checkout.</p>
+            </div>
+
+
+        </section>
+
+
+
+
+        <section class="py-6">
+       <div class="container">
+        <div class="grid grid-cols-12 gap-6">
+
+
+            <div class="col-span-8 flex flex-col gap-2">
+
+                <div class="row gap-6 p-6 border-c rounded-xl">
+                    <img src="./src/imgs/probook-ultra.webp" class="rounded-lg w-32 h-32 object-contain">
+
+                    <div class="flex-1 flex flex-col gap-1">
+                        <div class="row relative justify-between">
+                            <h3 class="text-2xl leading-[31.2px] font-semibold">ProBook Ultra 14"</h3>
+                            <button class="pb-1.5 absolute top-0 right-0">
+                                <img src="./src/imgs/trash-can.svg" class="w-4 h-4.5">
+                            </button>
+                        </div>
+
+                        <p class="text-sm leading-[19.6px] font-medium">Variant: Space Gray | 1TB SSD</p>
+
+                        <div class="row justify-between pt-2">
+                            <div class=" row justify-between border-c p-1 rounded-[9999px] bg-[#F0F3FF]">
+                                <button class=" text-[#111C2D] row justify-center w-8 h-8 rounded-[9999px]">
+                                   -
+                                </button>
+                                <span class="row justify-center text-[#111C2D] px-1.5 w-10 h-5">1</span>
+                                <button class=" text-[#111C2D] row justify-center w-8 h-8 rounded-[9999px]">
+                                   +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row gap-6 p-6 border-c rounded-xl">
+                    <img src="./src/imgs/SonicFlow.webp" class="rounded-lg w-32 h-32 object-contain">
+
+                    <div class="flex-1 flex flex-col gap-1">
+                        <div class="row relative justify-between">
+                            <h3 class="text-2xl leading-[31.2px] font-semibold">ProBook Ultra 14"</h3>
+                            <button class="pb-1.5 absolute top-0 right-0">
+                                <img src="./src/imgs/trash-can.svg" class="w-4 h-4.5">
+                            </button>
+                        </div>
+
+                        <p class="text-sm leading-[19.6px] font-medium">Variant: Space Gray | 1TB SSD</p>
+
+                        <div class="row justify-between pt-2">
+                            <div class=" row justify-between border-c p-1 rounded-[9999px] bg-[#F0F3FF]">
+                                <button class=" text-[#111C2D] row justify-center w-8 h-8 rounded-[9999px]">
+                                   -
+                                </button>
+                                <span class="row justify-center text-[#111C2D] px-1.5 w-10 h-5">1</span>
+                                <button class=" text-[#111C2D] row justify-center w-8 h-8 rounded-[9999px]">
+                                   +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+              </div>
+
+
+            <div class="col-span-4 flex flex-col bg-[#DEE8FF] border-c shadow-[0_10px_15px_-3px_rgba(15,23,42,0.08)]  rounded-xl  p-6 gap-6 ">
+                <h3 class="text-2xl font-semibold leading-[31.2px] ">Order Summary</h3>
+
+                <div class="flex flex-col border-b border-c-border gap-2 pb-6">
+                    <div class="row justify-between  text-base font-normal leading-6">
+                        <span class="text-p-color">Subtotal</span>
+                        <span class="text-tx-color">$1,798.00</span>
+                    </div>
+                     <div class="row justify-between  text-base font-normal leading-6">
+                        <span class="text-p-color">Shipping</span>
+                        <span class="text-tx-color">FREE</span>
+                    </div>
+                     <div class="row justify-between  text-base font-normal leading-6">
+                        <span class="text-p-color">Tax (Calculated at checkout)</span>
+                        <span class="text-tx-color">$0.00</span>
+                    </div>
+                </div>
+
+                <div class=" flex flex-col gap-1">
+                    <label class="text-tx-color text-sm leading-[19.6px] font-medium  block">Promo Code</label>
+                    <div class="row  gap-2">
+                        <input type="text" placeholder="Enter code" class="input w-0 flex-1 py-2.5 px-3  text-base font-normal ">
+                        <button class="bg-black  text-white text-sm font-medium leading-[19.6px]  py-2.5  px-4 rounded-lg">Apply</button>
+                    </div>
+                </div>
+
+                <div class="flex justify-between items-center border-t border-c-border pt-4 mb-4">
+                    <span class="text-tx-color font-semibold text-2xl leading-[31.2px]">Total</span>
+                    <span class="text-[32px] leading-[38.4px] font-semibold text-bg-button">$1,798.00</span>
+                </div>
+
+                <button class="text-center bg-[#F97316] text-white text-2xl leading-[31.2px] font-semibold pt-[15.5px] pb-[15.69px] rounded-xl">
+                    Proceed to Checkout
+                </button>
+                 <div class="row justify-center gap-2 ">
+
+                    <img src="./src/imgs/lock.svg" class="w-[9.33px] h-[12.25px]">
+
+                     <p class="text-xs font-semibold leading-3">
+                    Secure Checkout Powered by TechNest</p>
+                 </div>
+
+            </div>
+
+
+
+                </div>
+                </div>
+
+                </section>
+
+        <section class="py-14">
+             <div class="container gap-6 ">
+
+        <div class="row justify-between mb-6">
+            <h2 class="text-[32] leading-[38.4px]">You might also like</h2>
+            <div class=" row justify-center  gap-1">
+                <a href="#" class="text-bg-button text-sm font-medium leading-[19.6px]">View all products</a>
+                <img src="./src/imgs/viewall.svg" class="w-[9.33px] h-[9.33px]">
+            </div>
+
+        </div>
+
+        <div class="grid grid-cols-4 gap-6">
+
+            <div class="card-sm ">
+                <img src="./src/imgs/powerdash.webp" class="rounded-xl  object-contain mb-3">
+                <h4 class="text-sm font-medium leading-[19.6px]">PowerDash 30W Charger</h4>
+                <p class="font-semibold text-xs leading-3">$49.00</p>
+                <button class="w-full border border-bg-button text-bg-button text-xs font-semibold leading-3 py-2 rounded-lg my-3">Add to Cart</button>
+            </div>
+
+              <div class="card-sm ">
+                <img src="./src/imgs/hyperlink.webp" class="rounded-xl  object-contain mb-3">
+                <h4 class="text-sm font-medium leading-[19.6px]">HyperLink 4K HDMI</h4>
+                <p class="font-semibold text-xs leading-3">$25.00</p>
+                <button class="w-full border border-bg-button text-bg-button text-xs font-semibold leading-3 py-2 rounded-lg my-3">Add to Cart</button>
+            </div>
+
+
+             <div class="card-sm ">
+                <img src="./src/imgs/techPack.webp" class="rounded-xl  object-contain mb-3">
+                <h4 class="text-sm font-medium leading-[19.6px]">TechPack Pro Case</h4>
+                <p class="font-semibold text-xs leading-3">$89.00</p>
+                <button class="w-full border border-bg-button text-bg-button text-xs font-semibold leading-3 py-2 rounded-lg my-3">Add to Cart</button>
+            </div>
+
+            <div class="card-sm ">
+                <img src="./src/imgs/ergo.webp" class="rounded-xl  object-contain mb-3">
+                <h4 class="text-sm font-medium leading-[19.6px]">ErgoTouch Wireless</h4>
+                <p class="font-semibold text-xs leading-3">$65.00</p>
+                <button class="w-full border border-bg-button text-bg-button text-xs font-semibold leading-3 py-2 rounded-lg my-3">Add to Cart</button>
+            </div>
+
+
+        </div>
+    </div>
+          </section>
+
+
+
+
+
+
+     </main>
+
+
+
+     <main class="block md:hidden">
+        <div class="container col pt-6 px-4 pb-16 ">
+             <div class="col gap-6">
+                <div class="row justify-between">
+                  <h2 class="h2-sm">Your Cart</h2>
+                   <span class="span-proprites text-p-color">3 Items</span>
+                </div>
+
+                <div class="col gap-4" >
+                    <div class="card-sm flex gap-4 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">
+                        <div class="col rounded-lg bg-[#E7EEFF]">
+                            <img src="./src/imgs/nex-watch.webp" class=" rounded-lg w-24 h-24">
+                        </div>
+
+                        <div class="col   flex-1 justify-between">
+                            <div class="col gap-1">
+                                <div class="flex justify-between">
+                                    <h3 class="h3-sm text-base leading-5">Nexus Watch Pro</h3>
+
+                                    <img src="./src/imgs/trash-can.svg">
+
+
+                                </div>
+                                <span class=" span-proprites text-p-color">Midnight Titanium</span>
+
+                            </div>
+
+                            <div class="col  pt-2">
+                                <div class="flex justify-between">
+                                    <div class="row justify-center  rounded-[9999px] border-c py-1 px-2 bg-[#F0F3FF]">
+                                        <button class="col pt-1 pb-2.5 px-1">
+                                               <img src="./src/imgs/loss.svg" class="w-fit h-fit ">
+                                        </button>
+                                        <div class=" col px-3">
+                                              <span class="text-tx-color">1</span>
+
+                                        </div>
+                                          <button class="col pt-1 pb-2.5 px-1">
+                                                  <img src="./src/imgs/more.svg" class="w-fit h-fit ">
+                                        </button>
+
+                                    </div>
+                                    <span class="text-bg-button  font-medium text-lg leading-6.75">$349.00</span>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                     <div class="card-sm flex gap-4 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">
+                        <div class="col rounded-lg bg-[#E7EEFF]">
+                            <img src="./src/imgs/SonicFlow -Studio.webp" class=" rounded-lg w-24 h-24">
+                        </div>
+
+                        <div class="col   flex-1 justify-between">
+                            <div class="col gap-1">
+                                <div class="flex justify-between">
+                                    <h3 class="h3-sm text-base leading-5">SonicFlow Studio</h3>
+
+                                    <img src="./src/imgs/trash-can.svg">
+
+
+                                </div>
+                                <span class=" span-proprites text-p-color">Matte Black</span>
+
+                            </div>
+
+                            <div class="col  pt-2">
+                                <div class="flex justify-between">
+                                    <div class="row justify-center  rounded-[9999px] border-c py-1 px-2 bg-[#F0F3FF]">
+                                        <button class="col pt-1 pb-2.5 px-1">
+                                               <img src="./src/imgs/loss.svg" class="w-fit h-fit ">
+                                        </button>
+                                        <div class=" col px-3">
+                                              <span class="text-tx-color">2</span>
+
+                                        </div>
+                                          <button class="col pt-1 pb-2.5 px-1">
+                                                  <img src="./src/imgs/more.svg" class="w-fit h-fit ">
+                                        </button>
+
+                                    </div>
+                                    <span class="text-bg-button  font-medium text-lg leading-6.75">$598.00</span>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-sm flex gap-4 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">
+                        <div class="col rounded-lg bg-[#E7EEFF]">
+                            <img src="./src/imgs/PixelCore-Phone.webp" class=" rounded-lg w-24 h-24">
+                        </div>
+
+                        <div class="col   flex-1 justify-between">
+                            <div class="col gap-1">
+                                <div class="flex justify-between">
+                                    <h3 class="h3-sm text-base leading-5">PixelCore X Phone</h3>
+
+                                    <img src="./src/imgs/trash-can.svg">
+
+
+                                </div>
+                                <span class=" span-proprites text-p-color">Cloud White / 256GB</span>
+
+                            </div>
+
+                            <div class="col  pt-2">
+                                <div class="flex justify-between">
+                                    <div class="row justify-center  rounded-[9999px] border-c py-1 px-2 bg-[#F0F3FF]">
+                                        <button class="col pt-1 pb-2.5 px-1">
+                                               <img src="./src/imgs/loss.svg" class="w-fit h-fit ">
+                                        </button>
+                                        <div class=" col px-3">
+                                              <span class="text-tx-color">1</span>
+
+                                        </div>
+                                          <button class="col pt-1 pb-2.5 px-1">
+                                                  <img src="./src/imgs/more.svg" class="w-fit h-fit ">
+                                        </button>
+
+                                    </div>
+                                    <span class="text-bg-button  font-medium text-lg leading-6.75">$999.00</span>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+             </div>
+
+
+             <div class="col rounded-lg gap-4 pt-8 pb-6 px-6 bg-[#E7EEFF]">
+                <h3 class="h3-sm`">Order Summary</h3>
+
+                <div class="col pb-4 gap-2 border-b border-c-border">
+                    <div class="flex justify-between">
+                        <p>Subtotal</p>
+                        <span class=" text-tx-color font-normal text-base leading-6">$1,946.00</span>
+                    </div>
+                      <div class="flex justify-between">
+                        <p>Shipping</p>
+                        <span class="text-tx-color font-normal text-base leading-6">Free</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <p>Estimated Tax</p>
+                        <span class=" text-tx-color font-normal text-base leading-6">$155.68</span>
+                    </div>
+
+                </div>
+
+                <div class="row justify-between pt-2 pb-4">
+                    <h3 class="h3-sm">Total</h3>
+                    <span class="text-bg-button font-semibold text-[32px] leading-[38.4px]">$2,101.68</span>
+
+                </div>
+
+                <button class="row  justify-center py-4 bg-bg-button  rounded-xl text-lg leading-6.75 font-normal text-white shadow-[0_4px_6px_-4px_rgba(0,0,0,0.1),0_10px_15px_-3px_rgba(0,0,0,0.1)]">
+                             Proceed to Checkout
+                </button>
+
+                <div class="row justify-center gap-2">
+                    <img src="./src/imgs/checkout.svg" class="w-fit h-fit">
+                    <p class="font-medium text-sm leading-[19.6px]">Secure Checkout Guaranteed</p>
+                </div>
+
+             </div>
+
+
+        </div>
+
+
+     </main>
+
+
+
+  <footer class="bg-[#F9F9FF] block md:hidden border-t border-c-border ">
+    <div class="container row justify-center gap-[26.3px]  py-2 px-6 shadow-[0_4px_6px_-4px_rgba(0, 0, 0, 0.1),0_10px_15px_-3px_rgba(0, 0, 0, 0.1)]">
+      <a class="col justify-center items-center rounded-lg py-1 px-4 opacity-80">
+        <img src="./src/imgs/home-icon.svg" class="w-fit h-fit"/>
+        <p>Home</p>
+      </a>
+        <a class="col justify-center items-center rounded-lg py-1 px-4 opacity-80">
+        <img src="./src/imgs/products-ic.svg" class="w-fit h-fit"/>
+        <p>Products</p>
+      </a>
+        <a class="col justify-center items-center rounded-lg py-1 px-4 ">
+        <img src="./src/imgs/cart-blue.svg" class="w-fit h-fit"/>
+        <p class="text-bg-button">Cart</p>
+      </a>
+        <a class="col justify-center items-center rounded-lg py-1 px-4 opacity-80">
+        <img src="./src/imgs/profile.svg" class="w-fit h-fit"/>
+        <p>Profile</p>
+      </a>
+
+    </div>
+
+  </footer>
+
+    <footer class="bg-bg-footer hidden md:block">
+  <div class="container grid grid-cols-4 gap-6 py-12">
+
+    <div>
+      <h3 class="text-white font-bold text-2xl leading-[31.2px] mb-6 ">TechNest</h3>
+      <p class="text-[#7C839B] font-normal text-base leading-6">
+     Defining the future of <br>technology
+          retail with precision-engineered
+          products for professionals and
+            enthusiasts.
+      </p>
+    </div>
+
+     <div>
+      <h4 class="text-white font-bold text-sm leading-[19.6px] mb-2">Shop</h4>
+      <ul class="flex flex-col gap-2 text-base font-normal leading-6 text-[#7C839B]">
+        <a>Laptops</a>
+        <a>Audio</a>
+        <a>Accessories</a>
+      </ul>
+    </div>
+
+    <div>
+        <h4 class="text-white font-bold text-sm leading-[19.6px] mb-2">Company</h4>
+          <ul class="flex flex-col gap-2 text-base font-normal leading-6 text-[#7C839B]">
+        <a>Shipping Policy</a>
+        <a>Returns</a>
+        <a>Contact Us</a>
+
+      </ul>
+    </div>
+
+     <div>
+      <h4 class="text-white font-bold text-sm leading-[19.6px] mb-2">Legal</h4>
+      <ul class="flex flex-col gap-4 text-base font-normal leading-6 text-[#7C839B]">
+        <li>Privacy Policy</li>
+        <li>Terms of Service</li>
+
+        <div class="row gap-4" >
+           <img src="./src/imgs/google.svg" class="w-5 h-5"/>
+           <img src="./src/imgs/wifi.svg" class="w-5 h-5"/>
+           <img src="./src/imgs/tag.svg" class="w-5 h-5"/>
+
+        </div>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class=" container border-t  border-[#7C839B33] py-6 px-[16]">
+
+    <p class=" text-[#7C839B]">© 2024 TechNest Electronics. All rights reserved.</p>
+
+  </div>
+    </footer>
+
+     </body>
+     </html>
