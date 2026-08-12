@@ -17,13 +17,13 @@
 </head>
 
 <body>
-    <header class="hidden md:block py-4 border-b border-c-border mb-6  ">
+    <header class="hidden md:block sticky top-0 z-50 py-4 px-4 lg:px-0 border-b border-c-border mb-6 bg-[#F9F9FF]">
         <div class="container row justify-between ">
             <div>
                 <a href="./index.html" class="text-[#000000] text-2xl font-bold leading-[31.2px] ">TechNest</a>
             </div>
             <nav class="hidden md:block">
-                <ul class="row gap-8">
+                <ul class="row gap-4 lg:gap-8">
                     <li>
                         <a href="#" class="nav-link-Contact">Home</a>
                     </li>
@@ -33,35 +33,35 @@
                     </li>
 
                     <li>
-                        <a href="#" class="nav-link-Contact text-[#0051D5] border-[#0051D5] ">Contact</a>
+                        <a href="#" class="nav-link-Contact text-bg-button border-bg-button ">Contact</a>
                     </li>
                 </ul>
             </nav>
 
             <div>
-                <ul class=" row gap-6 ">
+                <ul class="row gap-4 lg:gap-6">
 
                     <li>
                         <a class="block md:hidden">
-                            <img src="./src/imgs/search-icon.svg" class="w-fit h-fit " />
+                            <img src="./src/imgs/search-icon.svg" class="hover-grow w-fit h-fit " />
                         </a>
                     </li>
 
                     <li>
                         <a class="hidden md:block">
-                            <img src="./src/imgs/heart-b.svg" alt="heart-icon" class="w-5 h-[18.35px]" />
+                            <img src="./src/imgs/heart-b.svg" alt="heart-icon" class="hover-grow w-fit h-fit " />
                         </a>
                     </li>
 
                     <li>
                         <a class="block">
-                            <img src="./src/imgs/cart-b.svg" alt="cart-icon" class="w-[19.98px] h-5 " />
+                            <img src="./src/imgs/cart-b.svg" alt="cart-icon" class="hover-grow w-fit h-fit " />
                         </a>
                     </li>
 
                     <li>
                         <a class="hidden md:block">
-                            <img src="./src/imgs/avater-b.svg" alt="avater-icon" class=" w-4 h-4" />
+                            <img src="./src/imgs/avater-b.svg" alt="avater-icon" class="hover-grow w-fit h-fit " />
                         </a>
                     </li>
                 </ul>
@@ -70,405 +70,9 @@
         </div>
     </header>
 
-    <main class="hidden md:block">
-        <section class="header-section pt-19.75 mb-12">
-            <div class="container gap-4 ">
-                <h1 class="text-5xl leading-[52.8px] mb-4">Connect With Precision</h1>
-                <p class="text-p-color font-normal leading-6 text-base">Have a technical question or need
-                    enterprise-grade support? Our specialized<br>
-                    engineering team is ready to assist you with your next breakthrough.</p>
 
-            </div>
 
-        </section>
 
-        <section class="Contact-layout">
-
-            <div class="container row  gap-20  ">
-                <div class="card gap-8 pt-8 px-8 pb-[78.03px] ">
-                    <h2 class="leading-[31.2px] mb-8 ">Send a Message</h2>
-
-                    <form class=" flex flex-col gap-6">
-
-                        <div class="inputs row gap-6 ">
-                            <div class="flex flex-col gap-[4.01px]">
-                                <label>Name</label>
-                                <input class="input" type="text" name="subject" id="subject" placeholder="John Doe">
-                            </div>
-
-                            <div class="flex flex-col gap-[4.01px]">
-                                <label>Email</label>
-                                <input class="input" type="email" name="email" id="email"
-                                    placeholder="john@example.com">
-                            </div>
-                        </div>
-
-                        <div class="flex flex-col gap-[4.01px]">
-                            <label>Subject</label>
-                            <input class="input" type="email" name="email" id="email" placeholder="Technical Support">
-                        </div>
-
-                        <div class="flex flex-col gap-1">
-                            <label>Message </label>
-                            <textarea class="input pb-27 resize-none"
-                                placeholder="Tell us how we can help..."></textarea>
-                        </div>
-
-                        <button
-                            class="bg-[#FF6B00] text-[#FFFFFF] rounded-lg  py-4 font-normal text-base leading-6 ">Dispatch
-                            Message</button>
-
-
-                    </form>
-                </div>
-
-                <div class="gap-12 flex flex-col">
-                    <div class="gap-6 row">
-                        <div class="bg-[#E7EEFF] flex flex-col gap-4 p-6   rounded-xl">
-                            <div>
-                                <img src="./src/imgs/map-icon.svg" class=" w-5 ">
-                            </div>
-
-                            <div>
-                                <h3>Global HQ</h3>
-                                <p>101 Innovation Way<br> Silicon Valley, CA 94025</p>
-                            </div>
-
-                        </div>
-
-                        <div class="bg-[#E7EEFF] flex flex-col gap-4 p-6   rounded-xl ">
-                            <div>
-                                <img src="./src/imgs/mobail-b.svg" class=" w-5 ">
-                            </div>
-
-                            <div>
-                                <h3>Phone</h3>
-                                <p> +1 (800) TECH-NEST<br>
-                                    Mon-Fri, 9am - 6pm PST</p>
-                            </div>
-
-                        </div>
-
-
-                    </div>
-
-                    <div class="relative ">
-                        <img src="./src/imgs/Map.png" class=" border border-c-border rounded-xl w-133.5 h-99.5">
-                        <div
-                            class=" bg-[#FFFFFF] absolute top-79.75 left-6.25 row rounded-lg p-4 gap-3 shadow-[#0000001A]">
-                            <div class=" bg-bg-button rounded-[9999px] w-3 h-3"></div>
-                            <span class="text-[#000000] font-normal text-sm leading-6">Live Operations Center</span>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-            </div>
-
-        </section>
-
-        <section class="mt-12 ">
-            <div class="container border-c-border border-t gap-12 pt-28 pb-20  ">
-                <div class="row flex-col justify-center gap-2 ">
-                    <h2 class="leading-6 font-normal">
-                        Frequently Asked Questions
-                    </h2>
-
-                    <span class="text-[#45464D] font-normal text-base leading-6">
-                        Quick answers to common inquiries from our community.
-                    </span>
-                </div>
-
-                <div class="row flex-col justify-center gap-4 max-w-3xl mx-auto mt-12 ">
-                    <button class="py-5 px-6 row justify-between rounded-xl border-c w-full ">
-                        <span class="font-normal text-base leading-6  ">What is the standard delivery timeline for
-                            hardware?</span>
-                        <img src="./src/imgs/down-arrow.svg" class="w-3 h-[7.4px]  ">
-                    </button>
-
-                    <button class="py-5 px-6 row justify-between rounded-xl border-c w-full ">
-                        <span class="font-normal text-base leading-6  ">Do you offer global warranty on all
-                            products?</span>
-                        <img src="./src/imgs/down-arrow.svg" class="w-3 h-[7.4px]  ">
-                    </button>
-
-                    <button class="py-5 px-6 row justify-between rounded-xl border-c w-full ">
-                        <span class="font-normal text-base leading-6  ">Can I modify my technical specifications after
-                            purchase?</span>
-                        <img src="./src/imgs/down-arrow.svg" class="w-3 h-[7.4px]  ">
-                    </button>
-                </div>
-            </div>
-        </section>
-
-
-    </main>
-
-    <footer class="hidden md:block bg-bg-footer">
-        <div class="container grid grid-cols-4 gap-6 px-16 py-12">
-
-            <div>
-                <h3 class="text-white font-bold text-2xl leading-[31.2px] mb-4">TechNest</h3>
-                <p class="text-[#7C839B] font-normal text-base leading-6">
-                    Precision engineered technology for the next generation of <br> innovators.
-                </p>
-            </div>
-
-            <div>
-                <h4 class="text-white font-normal text-base leading-6 mb-4">Shop</h4>
-                <ul class="flex flex-col gap-4 text-base font-normal leading-6 text-[#7C839B]">
-                    <li>All Products</li>
-                    <li>New Arrivals</li>
-                    <li>Featured Items</li>
-                </ul>
-            </div>
-
-            <div>
-                <h4 class="text-white font-normal text-base leading-6 mb-4">Support</h4>
-                <ul class="flex flex-col gap-4 text-base font-normal leading-6 text-[#7C839B]">
-                    <li>Contact Us</li>
-                    <li>Shipping Policy</li>
-                    <li>Returns</li>
-                </ul>
-            </div>
-
-            <div>
-                <h4 class="text-white font-normal text-base leading-6 mb-4">Legal</h4>
-                <ul class="flex flex-col gap-4 text-base font-normal leading-6 text-[#7C839B]">
-                    <li>Privacy Policy</li>
-                    <li>Terms of Service</li>
-                </ul>
-            </div>
-
-        </div>
-    </footer>
-
-
-    <header class="block md:hidden bg-[#F9F9FF] border-b border-c-border">
-        <div class="container ">
-            <div class="row justify-between p-4">
-                <h1 class="h1-sm font-bold text-black">TechNest</h1>
-                <div class="row gap-4">
-                    <button class="row">
-                        <img src="./src/imgs/search-gray.svg" class="w-fit h-fit" />
-                    </button>
-
-                    <button class="row">
-                        <img src="./src/imgs/cart-icon.svg" class="w-fit h-fit" />
-                    </button>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </header>
-
-    <main class="block md:hidden pb-32">
-        <div class="container">
-            <section class="col gap-4 px-4 pt-[47.1px] pb-[24.01px]">
-                <h1 class="font-bold text-4xl leading-[43.2px] text-black">
-                    Connect With Precision
-                </h1>
-                <p>Our technical support and sales teams are
-                    standing by to assist with your next high-
-                    performance integration.</p>
-
-            </section>
-
-            <section class="col card-sm pt-31.99px] px-6 pb-6 gap-6 shadow-[0_10px_15px_-3px_rgba(15,23,42,0.08)]">
-                <h2 class="h2-sm">
-                    Send a Message
-                </h2>
-
-                <form class="col gap-3">
-                    <div class="col gap-1">
-                        <label class="span-proprites text-p-color">Name</label>
-                        <input type="text" name="full-name" id="username" placeholder="Your full name"
-                            class="row rounded-lg border-c font-normal text-base   bg-[#FFFFFF] w-full h-full text-[#6B7280] py-3.5 px-3">
-
-                    </div>
-
-                    <div class="col gap-1">
-                        <label class="span-proprites text-p-color">Email</label>
-                        <input type="email" name="email" id="useremail" placeholder="email@example.com"
-                            class="row rounded-lg border-c font-normal text-base   bg-[#FFFFFF] w-full h-full text-[#6B7280] py-3.5 px-3">
-
-                    </div>
-
-                    <div class="col gap-1">
-                        <label class="span-proprites text-p-color">Subject</label>
-                        <div class="row rounded-lg border-c  p-3   justify-between   bg-[#FFFFFF] w-full h-full">
-                            <span class="font-normal text-base leading-6 text-tx-color">Technical Support</span>
-                            <img src="./src/imgs/down-g.svg" class="w-fit h-fit">
-
-                        </div>
-
-
-                    </div>
-
-                    <div class="col gap-1 pb-[5.99px]">
-                        <label class="span-proprites text-p-color">Message</label>
-                        <textarea id="message" name="message" rows="4" placeholder="How can we help you?"
-                            class="input resize-none font-normal text-base leading-6 text-[#6B7280] placeholder:text-[#6B7280]"></textarea>
-
-                    </div>
-
-                    <button class="mt-4 col py-4 bg-bg-button rounded-[9999px] ">
-                        <span class="span-proprites text-white">Send Message</span>
-
-                    </button>
-
-
-
-                </form>
-
-            </section>
-
-
-            <section class="col pt-14 px-4 pb-12 gap-6 ">
-
-                <div class="row items-start rounded-xl gap-4 p-6 border-c bg-white">
-                    <div class="col items-center justify-center rounded-lg bg-[#DBE1FF] pt-3 px-3 pb-4.5">
-                        <img src="./src/imgs/building-icon.svg" alt="" class="w-fit h-fit">
-                    </div>
-                    <div class="col  gap-2">
-                        <h3 class="h3-sm">Global HQ</h3>
-                        <p>
-                            101 Innovation Way<br>
-                            Silicon Valley, CA 94025<br>
-                            United States
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class="row items-start rounded-xl gap-4 p-6 border-c bg-white">
-                    <div class="col items-center justify-center rounded-lg bg-[#DBE1FF] pt-3 px-3 pb-4.5">
-                        <img src="./src/imgs/mobail-b.svg" alt="" class="w-fit h-fit">
-                    </div>
-                    <div class="col  gap-2">
-                        <h3 class="h3-sm">Phone</h3>
-                        <p>
-                            +1 (800) TECH-NEST<br>
-                            Mon-Fri, 9am - 6pm PST
-
-                        </p>
-                    </div>
-
-                </div>
-            </section>
-
-            <section class="px-4 pb-24 pt-12">
-                <div class="container col gap-6">
-
-                    <h2 class="h2-sm">Frequently Asked Questions</h2>
-
-                    <div class="col gap-4">
-
-                        <div class="col gap-3">
-
-                            <div class="border-c rounded-xl bg-[#F9F9FF] h-18.5"></div>
-
-                            <div class="border-c rounded-xl bg-[#F9F9FF]  h-18.5"></div>
-
-                            <div class="border-c rounded-xl bg-[#F9F9FF]  h-18.5"></div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </section>
-
-
-            <section>
-
-                <div class="relative w-full h-48 rounded-xl border-c overflow-hidden">
-
-                    <img src="./src/imgs/map-bg.webp" alt="Map location"
-                        class="absolute inset-0 w-full h-full object-cover">
-
-                    <div class="absolute inset-0 bg-bg-button/10"></div>
-
-                    <div class="absolute inset-0 col items-center justify-center gap-4">
-                        <div class="w-12 h-14.5 rounded-[9999px] bg-white shadow-lg row items-center justify-center">
-                            <img src="./src/imgs/map-icon.svg" alt="" class="w-5 h-5">
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </section>
-
-
-
-        </div>
-    </main>
-
-    <footer class=" block md:hidden bg-bg-footer pt-12  px-4 pb-32">
-    <div class="container col gap-6">
-
-        <h3 class="text-white font-bold h3-sm">TechNest</h3>
-
-        <div class="row justify-between gap-6">
-
-            <div class="col gap-2">
-                <h4 class="text-white/60 h4-sm uppercase">COMPANY</h4>
-                <ul class=" col gap-2 font-normal text-base leading-6 text-white/80">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Careers</a></li>
-                </ul>
-            </div>
-
-            <div class="col gap-2">
-                <h4 class="text-white/60 h4-sm uppercase">Support</h4>
-                <ul class=" col gap-2 font-normal text-base leading-6 text-white/80">
-                    <li><a href="#">Shipping Policy</a></li>
-                    <li><a href="#">Returns</a></li>
-                    <li><a href="#">Terms</a></li>
-                </ul>
-            </div>
-
-        </div>
-
-        <p class="text-[#7C839B] text-xs leading-3 font-semibold">
-         © 2024 TechNest Electronics. All rights reserved.
-        </p>
-
-    </div>
-   </footer>
-
-   <nav class=" block md:hidden fixed bottom-0 left-0 w-full bg-[#F9F9FF] border-t border-c-border">
-    <div class="container row justify-between items-center gap-[34.4px] py-2 px-[33.22px] shadow-[0_4px_6px_-4px_rgba(0, 0, 0, 0.1),0_10px_15px_-3px_rgba(0, 0, 0, 0.1)]">
-
-        <a href="./index.html" class="col items-center  text-p-color">
-            <img src="./src/imgs/home-icon.svg" class="w-fit h-fit">
-            <p>Home</p>
-        </a>
-
-        <a href="./products.html" class="col items-center  text-p-color">
-            <img src="./src/imgs/products-ic.svg" class="w-fit h-fit">
-            <p>Products</p>
-        </a>
-
-        <a href="./contact.html" class="col items-center  text-bg-button">
-            <img src="./src/imgs/help-icon.svg"  class="w-fit h-fit">
-            <p class="text-bg-button">Contact</p>
-        </a>
-
-        <a href="./profile.html" class="col items-center  text-p-color">
-            <img src="./src/imgs/profile.svg" class="w-fit h-fit">
-            <p>Profile</p>
-        </a>
-
-    </div>
-</nav>
 
 </body>
 
