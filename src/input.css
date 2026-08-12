@@ -108,6 +108,35 @@
 @utility hover-img{
     @apply transition-transform duration-500 hover:scale-110;
 }
+@utility btn-cta {
+    @apply transition-all duration-300 hover:shadow-lg active:scale-95;
+}
+
+@utility input-focus {
+    @apply transition-all duration-200 focus:border-bg-button focus:ring-2 focus:ring-bg-button/20 outline-none;
+}
+
+
+@utility faq-hover {
+    @apply transition-all duration-300 hover:border-bg-button hover:bg-[#F9F9FF];
+}
+
+
+@utility contact-card-hover {
+    @apply transition-all duration-300 hover:shadow-md hover:-translate-y-0.5 cursor-pointer;
+}
+
+@utility footer-link {
+    @apply transition-colors duration-200 hover:text-white cursor-pointer;
+}
+
+@utility bottom-nav-link {
+    @apply transition-all duration-200 hover:text-bg-button active:scale-95;
+}
+
+
+
+
 @layer components{
     .card{
         @apply bg-white rounded-xl border border-c-border ;
