@@ -9,6 +9,8 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-blue-500: oklch(62.3% 0.214 259.815);
+    --color-gray-200: oklch(92.8% 0.006 264.531);
+    --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -377,6 +379,9 @@
   }
   .mt-\[13\.88px\] {
     margin-top: 13.88px;
+  }
+  .mb-1 {
+    margin-bottom: var(--spacing);
   }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
@@ -852,6 +857,18 @@
   .w-\[184\.66px\] {
     width: 184.66px;
   }
+  .w-\[214\.3p\] {
+    width: 214.3p;
+  }
+  .w-\[214\.39px\] {
+    width: 214.39px;
+  }
+  .w-\[214\.389\] {
+    width: 214.389;
+  }
+  .w-\[214\.38999938964844\] {
+    width: 214.38999938964844;
+  }
   .w-\[221\.98px\] {
     width: 221.98px;
   }
@@ -879,8 +896,14 @@
   .max-w-3xl {
     max-width: var(--container-3xl);
   }
+  .max-w-67 {
+    max-width: calc(var(--spacing) * 67);
+  }
   .max-w-120 {
     max-width: calc(var(--spacing) * 120);
+  }
+  .max-w-\[268px\] {
+    max-width: 268px;
   }
   .flex-1 {
     flex: 1;
@@ -1113,6 +1136,9 @@
   }
   .gap-\[4\.01px\] {
     gap: 4.01px;
+  }
+  .gap-\[6\.5px\] {
+    gap: 6.5px;
   }
   .gap-\[7\.2px\] {
     gap: 7.2px;
@@ -1520,6 +1546,9 @@
   .px-\[16\] {
     padding-inline: 16;
   }
+  .px-\[26\.8px\] {
+    padding-inline: 26.8px;
+  }
   .px-\[28\.61px\] {
     padding-inline: 28.61px;
   }
@@ -1688,6 +1717,9 @@
   .pt-\[23\.5px\] {
     padding-top: 23.5px;
   }
+  .pt-\[26\.8px\] {
+    padding-top: 26.8px;
+  }
   .pt-\[47\.1px\] {
     padding-top: 47.1px;
   }
@@ -1807,6 +1839,9 @@
   }
   .pb-\[24\.01px\] {
     padding-bottom: 24.01px;
+  }
+  .pb-\[42\.81px\] {
+    padding-bottom: 42.81px;
   }
   .pb-\[65\] {
     padding-bottom: 65;
@@ -2277,6 +2312,12 @@
     .hover\:bg-bg-button:hover {
       background-color: var(--color-bg-button);
     }
+    .hover\:bg-gray-200:hover {
+      background-color: var(--color-gray-200);
+    }
+    .hover\:bg-gray-400:hover {
+      background-color: var(--color-gray-400);
+    }
     .hover\:text-\[\#93000A\]:hover {
       color: #93000A;
     }
@@ -2388,6 +2429,12 @@
     }
     .lg\:w-\[184\.66px\] {
       width: 184.66px;
+    }
+    .lg\:w-\[214\.39px\] {
+      width: 214.39px;
+    }
+    .lg\:max-w-67 {
+      max-width: calc(var(--spacing) * 67);
     }
     .lg\:grid-cols-3 {
       grid-template-columns: repeat(3, minmax(0, 1fr));
