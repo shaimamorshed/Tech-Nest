@@ -1799,6 +1799,9 @@
   .pt-\[26\.8px\] {
     padding-top: 26.8px;
   }
+  .pt-\[47\.1px\] {
+    padding-top: 47.1px;
+  }
   .pr-2 {
     padding-right: calc(var(--spacing) * 2);
   }
@@ -1906,6 +1909,9 @@
   }
   .pb-\[23\.69px\] {
     padding-bottom: 23.69px;
+  }
+  .pb-\[24\.01px\] {
+    padding-bottom: 24.01px;
   }
   .pb-\[42\.81px\] {
     padding-bottom: 42.81px;
