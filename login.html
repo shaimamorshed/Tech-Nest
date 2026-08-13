@@ -19,109 +19,128 @@
 
 <body>
     <main class="hidden md:block">
-        <div class="container mx-auto flex items-center justify-center w-full  py-10">
-            <div class="card  bg-[#FFFFFF] rounded-xl py-10 px-6 sm:px-12 md:px-25 w-full max-w-120">
-
-                <!--Logo sec-->
-                <div class="logo-section flex flex-col items-center mb-10 mt-10 ">
-                    <img src="./src/imgs/logo.svg" />
-                    <h1 class="font-semibold text-[32px] leading-[38.4px] text-[#111C2D] ">TechNest</h1>
-                    <p class="text-[#45464D]  font-normal text-[16px] leading-6 pt-2 ">Access your professional
-                        workstation</p>
-                </div>
-                <!--Subtitle-->
-
-                <form class="w-full">
-                    <!--Email input -->
-                    <div class="form-group w-full ">
-                        <label class="block mb-[9.5px] font-medium text-sm leading-[19.6px] ">Email Address</label>
-                        <div class="relative ">
-                            <img src="./src/imgs/email-icon.svg" class="absolute left-3 top-2.5 ">
-                            <input type="email" name="email" id="useremail" placeholder="name@company.com"
-                                class=" w-full h-12.25 rounded-lg border border-[#C6C6CD]  bg-[#FFFFFF] text-[#6B7280] pt-3.5 pb-3.5 pr-4 pl-10">
-                        </div>
-                    </div>
-                    <!-- Password input -->
-                    <div class="form-group w-full">
-                        <div class="flex items-center justify-between w-full mb-2  mt-6">
-                            <label class="block w-[66.7px] h-5  font-medium text-sm leading-[19.6px] ">Password</label>
-                            <a href="#"
-                                class=" whitespace-nowrap text-base leading-6  font-normal text-[#0051D5] hover:underline">Forgot
-                                password?</a>
-                        </div>
-
-                        <div class="relative">
-                            <img src="./src/imgs/block-icon.svg" class="absolute left-3 top-2.5 ">
-                            <input type="password" name="password" id="userpassword" placeholder="••••••••"
-                                class="  w-full h-12.25 rounded-lg border border-[#C6C6CD]  bg-[#FFFFFF] text-[#6B7280] py-3.5 pr-12 pl-10">
-                            <img src="./src/imgs/eyes-icon.svg" class="absolute right-3 top-[17.25px]  cursor-pointer">
-                        </div>
-                    </div>
-                    <!--remember and forget pass-->
-                    <div class="form-options mt-6 mb-8 flex items-center">
-                        <!--Sign in input-->
-                        <input type="checkbox" id="remember"
-                            class=" border-[#C6C6CD] bg-[#FFFFFF]  w-4 h-4 border rounded-sm">
-                        <label for="remember" class="pl-2"> Keep me logged in for 30 days</label>
-                    </div>
-                    <a
-                        class="row bg-[#FF5A1F] text-[#FFFFFF] font-normal text-base leading-6  rounded-lg py-4 px-20 gap-2  justify-center ">
-                        <span>Sign In</span>
-                        <img src="./src/imgs/arrow-icon.svg">
-                    </a>
-
-                </form>
-                <!--Divider-->
-                <div class="divider flex items-center my-8  ">
-                    <div class="flex-1 border-t border-[#C6C6CD]"></div>
-                    <span class="px-4 text-xs font-semibold leading-3 whitespace-nowrap text-[#76777D] ">OR CONTINUE
-                        WITH</span>
-                    <div class="flex-1 border-t border-[#C6C6CD]"></div>
-
-                </div>
+        <div class="relative w-full min-h-screen overflow-hidden">
 
 
-                <!--Social buttons-->
-                <div class="social-buttons flex  gap-3">
-                    <button
-                        class="flex-1 h-14.5 w-full border border-[#C6C6CD] rounded-lg flex items-center justify-center gap-3 font-normal text-[16px] text-[#111C2D] leading-6">
-                        <img src="./src/imgs/google-icon.png" class="w-5 h-5">
-                        Google
-                    </button>
-                    <button
-                        class="flex-1  w-full h-12.5 border border-[#C6C6CD] rounded-lg flex items-center justify-center gap-3 font-normal text-[16px] text-[#111C2D] leading-6">
-                        <img src="./src/imgs/download.svg" class="w-4 h-4">
-                        Apple
-                    </button>
-                </div>
-
-                <p class="text-center font-normal text-base text-[#45464D] mt-8 leading-6 whitespace-nowrap">
-                    Don't have an account?
-                    <a href="#" class="text-[#0051D5] text-base leading-6 font-bold hover:underline">Create Account</a>
-                </p>
+            <div
+                class="absolute inset-0 w-full max-w-7xl h-244.25 mx-auto opacity-40 bg-[radial-gradient(circle,rgba(216,227,251,1)_0%,rgba(216,227,251,0)_100%)]">
             </div>
+
+
+            <div class="absolute -top-20 -left-20 w-96 h-96 rounded-full bg-bg-button/5 blur-3xl"></div>
+
+
+            <div class="absolute -bottom-20 -right-20 w-96 h-96 rounded-full bg-bg-button/5 blur-3xl"></div>
+
+
+            <div class="relative z-10 container row justify-center w-full py-10">
+                <div class="card gap-10 p-12  w-full max-w-120 shadow-[0_20px_25px_-5px_rgba(15,23,42,0.12)]">
+
+                    <div class="col text-center items-center mb-10 mt-10">
+                        <img src="./src/imgs/logo.svg" alt="TechNest logo" class="w-fit h-fit">
+                        <h1 class="font-semibold lg:text-[32px] leading-[31.2px] lg:leading-[38.4px] text-tx-color">
+                            TechNest</h1>
+                        <p class="text-p-color font-normal text-base leading-6 pt-2">Access your professional
+                            workstation</p>
+                    </div>
+
+                    <form class="w-full">
+
+                        <div class="w-full gap-6">
+                            <label class="block mb-[9.5px] span-proprites">Email Address</label>
+                            <div class="relative">
+                                <img src="./src/imgs/email-icon.svg" class="absolute left-3 top-2.5">
+                                <input type="email" name="email" id="useremail" placeholder="name@company.com"
+                                    class="input input-focus font-normal text-base leading-4 w-full  text-[#6B7280] py-3.5  pr-6 pl-10">
+                            </div>
+                        </div>
+
+                        <div class="form-group w-full">
+                            <div class="flex items-center justify-between w-full mb-2 mt-6">
+                                <label class="block span-proprites">Password</label>
+                                <a href="#"
+                                    class="whitespace-nowrap text-base leading-6 font-normal text-bg-button hover:underline">Forgot
+                                    password?</a>
+                            </div>
+
+                            <div class="relative">
+                                <img src="./src/imgs/block-icon.svg" class="absolute left-3 top-2.5">
+                                <input type="password" name="password" id="userpassword" placeholder="••••••••"
+                                    class=" input input-focus w-full  text-[#6B7280] py-3.5 pr-12 pl-10">
+                                <img src="./src/imgs/eyes-icon.svg" alt="Toggle password visibility"
+                                    class="absolute right-3 top-[17.25px] cursor-pointer transition-opacity duration-200 hover:opacity-70">
+                            </div>
+                        </div>
+
+                        <div class="form-options mt-6 mb-8 row">
+                            <input type="checkbox" id="remember"
+                                class="border-c- bg-[#FFFFFF] w-4 h-4  rounded-sm accent-bg-button">
+                            <label for="remember" class="pl-2 span-proprites">Keep me logged in for 30 days</label>
+                        </div>
+
+                        <button type="submit"
+                            class="row bg-[#FF5A1F] text-[#FFFFFF] font-normal text-base leading-6 rounded-lg py-4  gap-2 justify-center w-full btn-cta hover:bg-[#E64F17]">
+                            <span class="font-normal text-base leading-6">Sign In</span>
+                            <img src="./src/imgs/arrow-icon.svg" class="w-fit h-fit">
+                        </button>
+
+                    </form>
+
+
+                    <div class="row my-8">
+                        <div class="flex-1 border-t border-c-border"></div>
+                        <span class="px-4 text-xs font-semibold leading-3 whitespace-nowrap text-[#76777D]">OR CONTINUE
+                            WITH</span>
+                        <div class="flex-1 border-t border-c-border"></div>
+                    </div>
+
+
+                    <div class=" flex gap-4">
+                        <button
+                            class="flex-1 w-full border-c  rounded-lg row justify-center gap-3 py-4 px-[47.44px] font-normal text-base  text-tx-color leading-6 transition-all duration-200 hover:bg-[#F9F9FF] hover:border-bg-button">
+                            <img src="./src/imgs/google-icon.png" alt="Google" class="w-fit h-fit">
+                            Google
+                        </button>
+                        <button
+                            class="flex-1 w-full  border-c rounded-lg row justify-center gap-3 py-3 px-[50.58px] font-normal text-base text-tx-color leading-6 transition-all duration-200 hover:bg-[#F9F9FF] hover:border-bg-button">
+                            <img src="./src/imgs/download.svg" alt="Apple" class="w-fit h-fit">
+                            Apple
+                        </button>
+                    </div>
+
+                    <p class="text-center font-normal text-base text-p-color mt-8 leading-6 whitespace-nowrap">
+                        Don't have an account?
+                        <a href="#" class="text-bg-button text-base leading-6 font-bold hover:underline">Create
+                            Account</a>
+                    </p>
+                </div>
+            </div>
+
         </div>
 
     </main>
 
 
-    <footer class=" hidden md:block border-t border-c-border/30">
-        <div class="container row  justify-between py-2 px-16 ">
+    <footer class="hidden md:block border-t border-c-border/30">
+        <div
+            class="col lg:flex-row justify-between items-center gap-2 lg:gap-0 py-4 lg:py-2 px-4 lg:px-16 text-center lg:text-left">
 
-            <div class="row gap-6">
-                <a class="font-normal text-base leading-6 uppercase text-p-color/60">HELP CENTER</a>
-                <a class="font-normal text-base leading-6 uppercase text-p-color/60">LEGAL</a>
-                <a class="font-normal text-base leading-6 uppercase text-p-color/60">PRIVACY</a>
-
+            <div class="row flex-wrap justify-center gap-3 lg:gap-6 order-1 lg:order-2">
+                <a href="#" class="font-normal text-base leading-6 uppercase text-p-color/60 hover:text-tx-color">HELP
+                    CENTER</a>
+                <a href="#"
+                    class="font-normal text-base leading-6 uppercase text-p-color/60 hover:text-tx-color">LEGAL</a>
+                <a href="#"
+                    class="font-normal text-base leading-6 uppercase text-p-color/60 hover:text-tx-color">PRIVACY</a>
             </div>
 
-
-            <p class="text-p-color/60">© 2024 TECHNEST ELECTRONICS. ALL RIGHTS RESERVED.</p>
-
+            <p
+                class="text-p-color/60 font-normal text-xs lg:text-base leading-5 lg:leading-6 uppercase order-2 lg:order-1">
+                © 2024 TECHNEST ELECTRONICS. ALL RIGHTS RESERVED.</p>
 
         </div>
-
     </footer>
+
 
 
     <header class="block md:hidden">
@@ -140,13 +159,14 @@
 
     <main class="block md:hidden">
         <section>
-            <div class="container col gap-6 p-6 card bg-white shadow-[0_1px_2px_0_rgba(0, 0, 0, 0.05)]">
+            <div class="container col gap-6 p-6 card bg-white shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">
                 <div class="flex  rounded-lg p-1 bg-[#F0F3FF]">
-                    <button class="col flex-1 rounded-md py-2 bg-white  shadow-[0_1px_2px_0_rgba(0, 0, 0, 0.05)]">
+                    <button
+                        class="col flex-1 rounded-md py-2 bg-white shadow-[0_1px_2px_0_rgba(0,0,0,0.05)] transition-all duration-200">
                         <span class="span-proprites text-bg-button">Sign In</span>
                     </button>
 
-                    <button class="col flex-1 py-2 ">
+                    <button class="col flex-1 py-2 transition-all duration-200 hover:text-tx-color">
                         <span class="span-proprites text-p-color">Create Account</span>
                     </button>
 
@@ -159,7 +179,7 @@
                         <div class=" col relative ">
                             <img src="./src/imgs/email-icon.svg" class="absolute left-3 top-3 ">
                             <input type="email" name="email" id="useremail" placeholder="name@company.com"
-                                class="row rounded-lg border-c font-normal text-base   bg-[#FFFFFF] w-full h-full text-[#6B7280] py-3.5 pr-6.25 pl-10">
+                                class="input-focus row rounded-lg border-c font-normal text-base   bg-[#FFFFFF] w-full h-full text-[#6B7280] py-3.5 pr-6.25 pl-10">
                         </div>
 
                     </div>
@@ -167,11 +187,11 @@
                     <div class="col gap-1 ">
                         <label class="block span-proprites text-p-color ">Password</label>
                         <div class="relative col ">
-
                             <img src="./src/imgs/block-icon.svg" class="absolute left-3 top-2.5 ">
                             <input type="password" name="password" id="userpassword" placeholder="••••••••"
-                                class="  w-full h-12.25 rounded-lg border border-[#C6C6CD]  bg-[#FFFFFF] text-[#6B7280] py-3.5 pr-12 pl-10">
-                            <img src="./src/imgs/eyes-icon.svg" class="absolute right-3 top-[17.25px]  cursor-pointer">
+                                class="input-focus  w-full h-12.25 rounded-lg border border-c-border  bg-[#FFFFFF] text-[#6B7280] py-3.5 pr-12 pl-10">
+                            <img src="./src/imgs/eyes-icon.svg" alt="Toggle password visibility"
+                                class="absolute right-3 top-[17.25px] cursor-pointer transition-opacity duration-200 hover:opacity-70">
 
 
                         </div>
@@ -182,7 +202,7 @@
                     </div>
 
                     <button
-                        class="row justify-center  gap-2 pt-[23.5px] pb-[23.69px] bg-bg-button rounded-lg shadow-[0_2px_4px_-2px_rgba(0, 0, 0, 0.1),0_4px_0_-1px_rgba(0, 0, 0, 0.1)]">
+                        class="row justify-center gap-2 pt-[23.5px] pb-[23.69px] bg-bg-button rounded-lg shadow-[0_2px_4px_-2px_rgba(0,0,0,0.1),0_4px_0_-1px_rgba(0,0,0,0.1)] btn-cta hover:bg-[#003BA8]">
 
                         <span class="h1-sm text-white">Sign In</span>
                         <img src="./src/imgs/arrow-icon.svg" class="w-fit h-fit">
@@ -199,14 +219,16 @@
 
 
                     <div class="flex pt-6 gap-3 justify-center">
-                        <button class="row rounded-lg border-c gap-1 py-3 px-[36.67px]">
+                        <button
+                            class="row rounded-lg border-c gap-1 py-3 px-[36.67px] transition-all duration-200 hover:bg-[#F9F9FF] hover:border-bg-button">
                             <img src="./src/imgs/google-sm.jpg" class="w-fit h-fit ">
 
                             <span class="span-proprites text-tx-color">Google</span>
 
                         </button>
 
-                        <button class="row rounded-lg border-c gap-1 py-3 px-[41.15px]">
+                        <button
+                            class="row rounded-lg border-c gap-1 py-3 px-[41.15px] transition-all duration-200 hover:bg-[#F9F9FF] hover:border-bg-button">
                             <img src="./src/imgs/download.svg" class="w-fit h-fit ">
 
                             <span class="span-proprites text-tx-color">Apple</span>
@@ -223,7 +245,11 @@
                     <p class="font-semibold text-xs leading-3 text-p-color ">
                         By signing in, you agree to our <br>
 
-                    <span class=" font-semibold text-xs leading-3 text-bg-button"> Terms of Service </span> and <span class="font-semibold text-xs leading-3 text-bg-button"> Privacy Policy</span>.
+                        <span
+                            class="font-semibold text-xs leading-3 text-bg-button hover:underline cursor-pointer">Terms
+                            of Service</span> and <span
+                            class="font-semibold text-xs leading-3 text-bg-button hover:underline cursor-pointer">Privacy
+                            Policy</span>.
                     </p>
                 </div>
 
@@ -236,12 +262,13 @@
 
     <footer class="block md:hidden">
         <div class="container col pt-12">
-                   <div class="row gap-1 justify-center">
-                        <img src="./src/imgs/question.svg" class="w-fit h-fit"/>
-                        <p class="span-proprites text-p-color">Need help with your account?</p>
-                   </div>
+            <div class="row gap-1 justify-center">
+                <img src="./src/imgs/question.svg" class="w-fit h-fit" />
+                <p class="span-proprites text-p-color">Need help with your account?</p>
+            </div>
         </div>
 
     </footer>
+
 
 </html>
