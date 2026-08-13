@@ -102,7 +102,7 @@
   <main class="hidden md:block bg-[#F9F9FF]">
     <div class="container gap-4 md:gap-6 py-10 md:py-12 lg:py-20 row items-start px-4 md:px-6 lg:px-0">
      <section class="w-56 lg:w-auto shrink-0">
-       <div class="bg-white col gap-4 md:gap-6 lg:gap-8 p-4 md:p-5 lg:p-6 border-c rounded-xl">
+       <div class="bg-white col gap-4 md:gap-6 lg:gap-8 p-4 md:p-5 lg:p-6 border-c rounded-xl hover-card-m">
           <div class="col gap-2 ">
              <button class="bg-[#E7EEFF] relative row gap-3 py-3 px-4 w-full justify-start">
               <div class="w-1 h-6 absolute left-0 rounded-tr  rounded-br bg-bg-button"></div>
@@ -140,9 +140,111 @@
         </div>
       </section>
 
+      <section class="Content-Area flex-1 min-w-0">
+       <div class="col gap-4 md:gap-6">
+
+
+         <div class="bg-[#FFFFFF] border-c col gap-8 md:gap-12 lg:gap-20 p-4 md:p-8 lg:p-12 rounded-xl hover-card-m">
+
+           <div class="row flex-wrap gap-6 md:gap-8 lg:gap-20">
+
+              <div class="relative w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32">
+                <div class="rounded-[9999px] overflow-hidden border-4 border-[#E7EEFF]">
+                  <img src="./src/imgs/alex.webp" class="w-full h-full object-cover">
+                </div>
+
+
+
+               <div class="bg-bg-button absolute bottom-0 right-0 row justify-center rounded-[9999px] w-8 h-8 md:w-9 md:h-9 lg:w-10 lg:h-10">
+                  <img src="./src/imgs/camera-2.svg" class="w-3.25 h-3 md:w-3.75 md:h-3.25 lg:w-[16.67px] lg:h-3.75">
+                </div>
+
+              </div>
+
+
+              <div class="col">
+                <h1 class="font-semibold text-2xl lg:text-[32px] leading-[38.4px]">Alex Thompson</h1>
+                <p class="mb-4">alex.thompson@technest.com</p>
+                 <span
+                  class="bg-[#DBE1FF] text-[#00174B] rounded-[9999px] py-1 px-3 font-normal text-base leading-6 w-fit">Premium
+                  Member</span>
+
+              </div>
+
+            </div>
+
+
+
+            <form class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div class="col gap-2">
+                <label class="text-p-color text-base font-normal leading-6">First Name</label>
+                <input type="text" value="Alex" class="input input-focus text-tx-color font-normal text-base leading-6 py-3 ">
+              </div>
+
+              <div class="col gap-2">
+                <label class="text-p-color text-base font-normal leading-6">Last Name</label>
+                <input type="text" value="Thompson" class="input input-focus  text-tx-color font-normal text-base leading-6 py-3  ">
+              </div>
+
+              <div class="col gap-2">
+                <label class="text-p-color text-base font-normal leading-6">Email Address</label>
+                <input type="email" value="alex.thompson@technest.com "
+                  class="input input-focus text-tx-color font-normal text-base leading-6 py-3 ">
+              </div>
+
+              <div class="col gap-2">
+                <label class="text-p-color text-base font-normal leading-6">Phone Number</label>
+                <input type="tel" value="+1 (555) 0123-4567"
+                  class="input input-focus text-tx-color font-normal text-base leading-6 py-3 ">
+              </div>
+
+               <div class="col-span-1 md:col-span-2 flex justify-end">
+                <button type="submit"
+                  class="bg-bg-button text-white font-medium text-base leading-6 px-8 py-3 rounded-lg hover-button">Save
+                  Changes</button>
+              </div>
+            </form>
+
+
+          </div>
+
+
+          <div class="col p-4 md:p-6 rounded-xl border-c bg-[#FFFFFF] hover-card-m">
+            <h3 class="text-tx-color pt-2 md:pt-4 font-semibold text-xl lg:text-2xl leading-[31.2px]">Security</h3>
+            <div class="row flex-wrap gap-2 justify-between py-4 border-b border-c-border">
+              <div class="col ">
+                <span class="text-tx-color font-normal text-base leading-6">Password </span>
+                <p class="text-sm leading-5"> Last changed 3 months ago</p>
+              </div>
+
+              <button class=" text-bg-button font-normal text-base leading-6 ">Change Password</button>
+
+            </div>
+
+           <div class="row flex-wrap gap-2 justify-between py-4">
+              <div class="col ">
+                <span class="text-tx-color font-normal text-base leading-6">Two-Factor Authentication </span>
+                <p class="text-sm leading-5"> Currently enabled via SMS</p>
+              </div>
+
+
+              <button class=" text-bg-button font-normal text-base leading-6 ">Manage</button>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+
+      </section>
+
+
 
     </div>
-    </main>
+   </main>
 
 
 
