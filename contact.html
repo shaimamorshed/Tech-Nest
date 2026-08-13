@@ -302,20 +302,20 @@
                     <div class="col gap-1">
                         <label class="span-proprites text-p-color">Name</label>
                         <input type="text" name="full-name" id="username" placeholder="Your full name"
-                            class="row rounded-lg border-c font-normal text-base   bg-[#FFFFFF] w-full h-full text-[#6B7280] py-3.5 px-3">
+                            class="input-focus row rounded-lg border-c font-normal text-base   bg-[#FFFFFF] w-full h-full text-[#6B7280] py-3.5 px-3">
 
                     </div>
 
                     <div class="col gap-1">
                         <label class="span-proprites text-p-color">Email</label>
                         <input type="email" name="email" id="useremail" placeholder="email@example.com"
-                            class="row rounded-lg border-c font-normal text-base   bg-[#FFFFFF] w-full h-full text-[#6B7280] py-3.5 px-3">
+                             class="input-focus row rounded-lg border-c font-normal text-base   bg-[#FFFFFF] w-full h-full text-[#6B7280] py-3.5 px-3">
 
                     </div>
 
                     <div class="col gap-1">
                         <label class="span-proprites text-p-color">Subject</label>
-                        <div class="row rounded-lg border-c  p-3   justify-between   bg-[#FFFFFF] w-full h-full">
+                        <div class="row rounded-lg border-c  p-3   justify-between   bg-[#FFFFFF] w-full h-full transition-all duration-200 hover:border-bg-button">
                             <span class="font-normal text-base leading-6 text-tx-color">Technical Support</span>
                             <img src="./src/imgs/down-g.svg" class="w-fit h-fit">
 
@@ -327,11 +327,11 @@
                     <div class="col gap-1 pb-[5.99px]">
                         <label class="span-proprites text-p-color">Message</label>
                         <textarea id="message" name="message" rows="4" placeholder="How can we help you?"
-                            class="input resize-none font-normal text-base leading-6 text-[#6B7280] placeholder:text-[#6B7280]"></textarea>
+                           class="input-focus input resize-none font-normal text-base leading-6 text-[#6B7280] placeholder:text-[#6B7280]"></textarea>
 
                     </div>
 
-                    <button class="mt-4 col py-4 bg-bg-button rounded-[9999px] ">
+                    <button class="mt-4 col py-4 bg-bg-button rounded-[9999px]  btn-cta hover:bg-[#003BA8]">
                         <span class="span-proprites text-white">Send Message</span>
 
                     </button>
@@ -345,7 +345,7 @@
 
             <section class="col pt-14 px-4 pb-12 gap-6 ">
 
-                <div class="row items-start rounded-xl gap-4 p-6 border-c bg-white">
+                <div class="row items-start rounded-xl gap-4 p-6 border-c bg-white contact-card-hover">
                     <div class="col items-center justify-center rounded-lg bg-[#DBE1FF] pt-3 px-3 pb-4.5">
                         <img src="./src/imgs/building-icon.svg" alt="" class="w-fit h-fit">
                     </div>
@@ -360,7 +360,7 @@
 
                 </div>
 
-                <div class="row items-start rounded-xl gap-4 p-6 border-c bg-white">
+                <div class="row items-start rounded-xl gap-4 p-6 border-c bg-white contact-card-hover">
                     <div class="col items-center justify-center rounded-lg bg-[#DBE1FF] pt-3 px-3 pb-4.5">
                         <img src="./src/imgs/mobail-b.svg" alt="" class="w-fit h-fit">
                     </div>
@@ -385,7 +385,7 @@
 
                     <div class="col gap-4">
 
-                        <details class="group border-c rounded-xl bg-[#F0F3FF] overflow-hidden">
+                        <details class="group border-c rounded-xl bg-[#F0F3FF] overflow-hidden transition-all duration-200 hover:border-bg-button">
                             <summary class="row justify-between  p-4 h-18.5 cursor-pointer list-none">
                                 <span class="font-medium text-sm text-tx-color">How long does shipping take?</span>
                                 <img src="./src/imgs/down-arrow.svg"
@@ -397,7 +397,7 @@
                             </div>
                         </details>
 
-                        <details class="group border-c rounded-xl bg-[#F0F3FF] overflow-hidden">
+                        <details class="group border-c rounded-xl bg-[#F0F3FF] overflow-hidden transition-all duration-200 hover:border-bg-button">
                             <summary class="row justify-between  p-4 h-18.5 cursor-pointer list-none">
                                 <span class="font-medium text-sm text-tx-color">What is your return policy?</span>
                                 <img src="./src/imgs/down-arrow.svg" class="" w-fit h-fit transition-transform
@@ -409,7 +409,7 @@
                             </div>
                         </details>
 
-                        <details class="group border-c rounded-xl bg-[#F0F3FF] overflow-hidden">
+                        <details class="group border-c rounded-xl bg-[#F0F3FF]overflow-hidden transition-all duration-200 hover:border-bg-button">
                             <summary class="row justify-between p-4 h-18.5 cursor-pointer list-none">
                                 <span class="font-medium text-sm text-tx-color">Are your products covered by
                                     warranty?</span>
@@ -440,7 +440,7 @@
 
                         <div class="absolute inset-0 col items-center justify-center gap-4">
                             <div
-                                class="w-12 pt-4 pr-4 pb-5.5 pl-4 rounded-[9999px] bg-white/90 backdrop-blur-sm shadow-lg row  justify-center">
+                                class="w-12 pt-4 pr-4 pb-5.5 pl-4 rounded-[9999px] bg-white/90 backdrop-blur-sm shadow-lg row  justify-center transition-transform duration-300 hover:scale-110">
                                 <img src="./src/imgs/map-icon.svg" alt="" class="w-fit h-fit">
                             </div>
                         </div>
@@ -466,18 +466,18 @@
                 <div class="col gap-2">
                     <h4 class="text-white/60 h4-sm uppercase">COMPANY</h4>
                     <ul class=" col gap-2 font-normal text-base leading-6 text-white/80">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Careers</a></li>
+                        <li><a href="#" class="footer-link">About Us</a></li>
+                        <li><a href="#" class="footer-link">Contact</a></li>
+                        <li><a href="#" class="footer-link">Careers</a></li>
                     </ul>
                 </div>
 
                 <div class="col gap-2">
                     <h4 class="text-white/60 h4-sm uppercase">Support</h4>
                     <ul class=" col gap-2 font-normal text-base leading-6 text-white/80">
-                        <li><a href="#">Shipping Policy</a></li>
-                        <li><a href="#">Returns</a></li>
-                        <li><a href="#">Terms</a></li>
+                        <li><a href="#" class="footer-link">Shipping Policy</a></li>
+                        <li><a href="#" class="footer-link">Returns</a></li>
+                        <li><a href="#" class="footer-link">Terms</a></li>
                     </ul>
                 </div>
 
@@ -489,6 +489,33 @@
 
         </div>
     </footer>
+
+    <nav class=" block md:hidden fixed bottom-0 left-0 w-full bg-[#F9F9FF] border-t border-c-border">
+        <div
+            class="container row justify-between items-center gap-[34.4px] py-2 px-[33.22px] shadow-[0_4px_6px_-4px_rgba(0, 0, 0, 0.1),0_10px_15px_-3px_rgba(0, 0, 0, 0.1)]">
+
+            <a href="./index.html" class="col items-center  text-p-color bottom-nav-link">
+                <img src="./src/imgs/home-icon.svg" class="w-fit h-fit">
+                <p>Home</p>
+            </a>
+
+            <a href="./products.html" class="col items-center  text-p-color bottom-nav-link">
+                <img src="./src/imgs/products-ic.svg" class="w-fit h-fit">
+                <p>Products</p>
+            </a>
+
+            <a href="./contact.html" class="col items-center  text-bg-button bottom-nav-link">
+                <img src="./src/imgs/help-icon.svg" class="w-fit h-fit">
+                <p class="text-bg-button">Contact</p>
+            </a>
+
+            <a href="./profile.html" class="col items-center  text-p-color bottom-nav-link">
+                <img src="./src/imgs/profile.svg" class="w-fit h-fit">
+                <p>Profile</p>
+            </a>
+
+        </div>
+    </nav>
 
 
 </body>
