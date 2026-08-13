@@ -2465,11 +2465,17 @@
     .hover\:bg-\[\#F9F9FF\]:hover {
       background-color: #F9F9FF;
     }
+    .hover\:bg-bg-button:hover {
+      background-color: var(--color-bg-button);
+    }
     .hover\:bg-gray-200:hover {
       background-color: var(--color-gray-200);
     }
     .hover\:bg-white:hover {
       background-color: var(--color-white);
+    }
+    .hover\:text-\[\#003BA8\]:hover {
+      color: #003BA8;
     }
     .hover\:text-\[\#93000A\]:hover {
       color: #93000A;
