@@ -134,6 +134,9 @@
     @apply transition-all duration-200 hover:text-bg-button active:scale-95;
 }
 
+@utility hover-label{
+    @apply cursor-pointer hover:text-bg-button transition-colors duration-200;
+}
 
 
 
