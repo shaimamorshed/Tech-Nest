@@ -2375,6 +2375,12 @@
       --tw-translate-y: calc(var(--spacing) * -1);
       translate: var(--tw-translate-x) var(--tw-translate-y);
     }
+    .hover\:scale-105:hover {
+      --tw-scale-x: 105%;
+      --tw-scale-y: 105%;
+      --tw-scale-z: 105%;
+      scale: var(--tw-scale-x) var(--tw-scale-y);
+    }
     .hover\:scale-110:hover {
       --tw-scale-x: 110%;
       --tw-scale-y: 110%;
@@ -2487,6 +2493,9 @@
     scale: var(--tw-scale-x) var(--tw-scale-y);
   }
   .has-focus\:border-bg-button:has(:focus) {
+    border-color: var(--color-bg-button);
+  }
+  .has-\[\:focus\]\:border-bg-button:has(:is(:focus)) {
     border-color: var(--color-bg-button);
   }
   @media (width >= 48rem) {
