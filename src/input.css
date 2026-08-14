@@ -151,6 +151,11 @@
 @utility hover-cart-butt{
     @apply transition-all duration-200 hover:bg-[#1a1a1a] active:scale-95 ;
 }
+@utility hover-butt-filter{
+    @apply  transition-colors duration-200 hover:bg-[#F0F3FF] ;
+}
+
+
 
 @layer components{
     .card{

@@ -1467,6 +1467,18 @@
       border-color: color-mix(in oklab, var(--color-white) 10%, transparent);
     }
   }
+  .hover-butt-filter {
+    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+    --tw-duration: 200ms;
+    transition-duration: 200ms;
+    &:hover {
+      @media (hover: hover) {
+        background-color: #F0F3FF;
+      }
+    }
+  }
   .bg-\[\#1E3A8A\] {
     background-color: #1E3A8A;
   }
