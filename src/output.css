@@ -672,6 +672,9 @@
   .w-4\.5 {
     width: calc(var(--spacing) * 4.5);
   }
+  .w-4\.75 {
+    width: calc(var(--spacing) * 4.75);
+  }
   .w-5 {
     width: calc(var(--spacing) * 5);
   }
@@ -1355,6 +1358,9 @@
       }
     }
   }
+  .border-\[\#6B7280\] {
+    border-color: #6B7280;
+  }
   .border-\[\#7C839B33\] {
     border-color: #7C839B33;
   }
@@ -1726,6 +1732,9 @@
   }
   .pt-3 {
     padding-top: calc(var(--spacing) * 3);
+  }
+  .pt-3\.25 {
+    padding-top: calc(var(--spacing) * 3.25);
   }
   .pt-4 {
     padding-top: calc(var(--spacing) * 4);
