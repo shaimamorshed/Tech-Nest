@@ -240,6 +240,9 @@
   .top-0 {
     top: 0px;
   }
+  .top-0\.5 {
+    top: calc(var(--spacing) * 0.5);
+  }
   .top-1 {
     top: var(--spacing);
   }
@@ -537,6 +540,27 @@
   .table {
     display: table;
   }
+  .aspect-1\/1 {
+    aspect-ratio: 1/1;
+  }
+  .aspect-1\/549 {
+    aspect-ratio: 1/549;
+  }
+  .aspect-5\/549 {
+    aspect-ratio: 5/549;
+  }
+  .aspect-549\/549 {
+    aspect-ratio: 549/549;
+  }
+  .aspect-662\/549 {
+    aspect-ratio: 662/549;
+  }
+  .aspect-\[662\/549\] {
+    aspect-ratio: 662/549;
+  }
+  .aspect-\[710\/549\] {
+    aspect-ratio: 710/549;
+  }
   .aspect-square {
     aspect-ratio: 1 / 1;
   }
@@ -809,6 +833,12 @@
   }
   .w-134 {
     width: calc(var(--spacing) * 134);
+  }
+  .w-137 {
+    width: calc(var(--spacing) * 137);
+  }
+  .w-137\.25 {
+    width: calc(var(--spacing) * 137.25);
   }
   .w-\[7\.4px\] {
     width: 7.4px;
@@ -1329,6 +1359,9 @@
     line-height: 19.6px;
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .rounded {
+    border-radius: 0.25rem;
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
@@ -2001,6 +2034,12 @@
   .pb-32 {
     padding-bottom: calc(var(--spacing) * 32);
   }
+  .pb-56 {
+    padding-bottom: calc(var(--spacing) * 56);
+  }
+  .pb-56\.5 {
+    padding-bottom: calc(var(--spacing) * 56.5);
+  }
   .pb-\[0\.6px\] {
     padding-bottom: 0.6px;
   }
@@ -2042,6 +2081,9 @@
   }
   .pb-\[113\.19px\] {
     padding-bottom: 113.19px;
+  }
+  .pb-\[226px\] {
+    padding-bottom: 226px;
   }
   .pl-2 {
     padding-left: calc(var(--spacing) * 2);
@@ -2102,6 +2144,9 @@
   .text-xs {
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
+  }
+  .text-\[8px\] {
+    font-size: 8px;
   }
   .text-\[10px\] {
     font-size: 10px;
