@@ -144,6 +144,9 @@
 @utility hover-butt{
    @apply transition-all duration-200 hover:bg-[#003BA8] active:scale-95;
 }
+@utility hover-a-pro{
+    @apply hover:opacity-100 hover:underline transition-all duration-200 ;
+}
 
 
 @layer components{
