@@ -267,6 +267,9 @@
   .right-0 {
     right: 0px;
   }
+  .right-2 {
+    right: calc(var(--spacing) * 2);
+  }
   .right-3 {
     right: calc(var(--spacing) * 3);
   }
@@ -786,6 +789,9 @@
   .w-\[214\.39px\] {
     width: 214.39px;
   }
+  .w-\[320px\] {
+    width: 320px;
+  }
   .w-\[409\.22px\] {
     width: 409.22px;
   }
@@ -1160,6 +1166,9 @@
   }
   .gap-\[0\.01px\] {
     gap: 0.01px;
+  }
+  .gap-\[3\.99px\] {
+    gap: 3.99px;
   }
   .gap-\[4\.01px\] {
     gap: 4.01px;
@@ -1756,6 +1765,9 @@
   .pt-\[47\.1px\] {
     padding-top: 47.1px;
   }
+  .pr-2 {
+    padding-right: calc(var(--spacing) * 2);
+  }
   .pr-4 {
     padding-right: calc(var(--spacing) * 4);
   }
@@ -1767,6 +1779,9 @@
   }
   .pr-12 {
     padding-right: calc(var(--spacing) * 12);
+  }
+  .pr-\[0\.01px\] {
+    padding-right: 0.01px;
   }
   .pr-\[98\.37px\] {
     padding-right: 98.37px;
@@ -1986,6 +2001,10 @@
     --tw-leading: 19.6px;
     line-height: 19.6px;
   }
+  .leading-\[22\.5px\] {
+    --tw-leading: 22.5px;
+    line-height: 22.5px;
+  }
   .leading-\[28\.8px\] {
     --tw-leading: 28.8px;
     line-height: 28.8px;
@@ -2025,6 +2044,10 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .tracking-\[0\.6px\] {
+    --tw-tracking: 0.6px;
+    letter-spacing: 0.6px;
   }
   .tracking-\[0\.14px\] {
     --tw-tracking: 0.14px;
@@ -2164,6 +2187,10 @@
   }
   .shadow-\[0_2px_4px_-2px_rgba\(0\,0\,0\,0\.1\)\,0_4px_6px_-1px_rgba\(0\,0\,0\,0\.1\)\] {
     --tw-shadow: 0 2px 4px -2px var(--tw-shadow-color, rgba(0,0,0,0.1)), 0 4px 6px -1px var(--tw-shadow-color, rgba(0,0,0,0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-\[0_2px_4px_-2px_rgba\(0\,0\,0\,0\.1\)\] {
+    --tw-shadow: 0 2px 4px -2px var(--tw-shadow-color, rgba(0,0,0,0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
   .shadow-\[0_4px_6px_-4px_rgba\(0\,0\,0\,0\.1\)\,0_10px_15px_-3px_rgba\(0\,0\,0\,0\.1\)\] {
