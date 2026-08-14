@@ -74,6 +74,9 @@
 @utility nav-link{
     @apply  inline-block text-sm text-p-color font-medium leading-[19.6px] hover:text-bg-button transition-all duration-500 hover:scale-100 border-b-2 border-transparent  pb-1;
 }
+@utility hover-card{
+    @apply  transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ;
+}
 @utility hover-button{
     @apply  transition-all duration-300 hover:bg-[#003BA8] hover:shadow-lg hover:shadow-blue-500/30 active:scale-95;
 }
@@ -138,6 +141,9 @@
     @apply cursor-pointer hover:text-bg-button transition-colors duration-200;
 }
 
+@utility hover-butt{
+   @apply transition-all duration-200 hover:bg-[#003BA8] active:scale-95;
+}
 
 
 @layer components{
