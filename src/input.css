@@ -148,6 +148,9 @@
     @apply hover:opacity-100 hover:underline transition-all duration-200 ;
 }
 
+@utility hover-cart-butt{
+    @apply transition-all duration-200 hover:bg-[#1a1a1a] active:scale-95 ;
+}
 
 @layer components{
     .card{
