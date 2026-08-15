@@ -606,8 +606,8 @@
                         <div class="row gap-4">
                             <button
                                 class="w-10 h-10 rounded-[9999px] bg-[#171717] shadow-[0_0_0_2px_#FFFFFF,0_0_0_4px_#0051D5]"></button>
-                            <button class="w-10 h-10 rounded-[9999px] bg-[#E5E5E5]"></button>
-                            <button class="w-10 h-10 rounded-[9999px] bg-[#1E3A8A]"></button>
+                            <button class="w-10 h-10 rounded-[9999px] bg-[#E5E5E5] hover-grow"></button>
+                            <button class="w-10 h-10 rounded-[9999px] bg-[#1E3A8A] hover-grow"></button>
 
                         </div>
 
@@ -622,16 +622,16 @@
         <section>
             <div class="container col pt-4 pb-6 gap-6">
                 <div class="row border-b border-c-border px-4">
-                    <div class="col border-b-2  border-bg-button p-4">
+                    <button class="col border-b-2  border-bg-button p-4">
 
                         <span class="span-proprites text-bg-button">Description</span>
-                    </div>
-                    <div class="col px-4 pt-[16.5px] pb-[17.09px] ">
+                    </button>
+                    <button class="col px-4 pt-[16.5px] pb-[17.09px] ">
                         <span class="span-proprites text-p-color">Specs</span>
-                    </div>
-                    <div class="col px-4 pt-[16.5px] pb-[17.09px] ">
+                    </button>
+                    <button class="col px-4 pt-[16.5px] pb-[17.09px] ">
                         <span class="span-proprites text-p-color">Reviews</span>
-                    </div>
+                    </button>
 
                 </div>
 
@@ -671,12 +671,12 @@
 
                 <h2 class="h2-sm">Frequently Bought With</h2>
 
-                <div class="row gap-4 items-start">
+                 <div class="row gap-4 items-start">
 
-                    <div class="col p-4 gap-3 rounded-2xl bg-[#E7EEFF]">
-                        <div class="row justify-center  rounded-xl p-2 bg-white w-34.75 h-34.75">
+                    <div class="col p-4 gap-3 rounded-2xl bg-[#E7EEFF] ">
+                        <div class="row justify-center  rounded-xl p-2 bg-white  aspect-square overflow-hidden">
                             <img src="./src/imgs/Hard-ravel.webp" alt="Hard Travel Case"
-                                class="w-30.75 h-30.75 object-contain">
+                                class="w-full h-full object-contain">
                         </div>
                         <div class="col gap-1">
                             <span class="span-proprites text-tx-color">Hard Travel Case</span>
@@ -684,10 +684,10 @@
                         </div>
                     </div>
 
-                    <div class="col px-4 pt-4 pb-[113.19px] gap-3 rounded-2xl bg-[#E7EEFF]">
-                        <div class="row justify-center  rounded-xl p-2 bg-white w-34.75 h-34.75">
+                    <div class="col p-4 pb-[113.19px]  gap-3 rounded-2xl bg-[#E7EEFF]">
+                        <div class="row justify-center  rounded-xl p-2 bg-white aspect-square overflow-hidden">
                             <img src="./src/imgs/Aluminum-Stand.webp" alt="Aluminum Stand"
-                                class="w-30.75 h-30.75 object-contain">
+                               class="w-full h-full object-contain">
                         </div>
                         <div class="col gap-1">
                             <span class="span-proprites text-tx-color">Aluminum Stand</span>
@@ -709,7 +709,7 @@
         <div class="container row p-4 gap-4">
 
             <button
-                class="row flex-1 justify-center gap-2 rounded-xl border-2 border-bg-button transition-all duration-300 hover:bg-[#0051D5] hover:text-white">
+                class="row flex-1 justify-center gap-2 rounded-xl border-2 border-bg-button transition-all duration-300 hover:bg-bg-button hover:text-white">
                 <img src="./src/imgs/cart-b.svg" alt="" class="w-fit h-fit">
                 <span class="span-proprites text-bg-button">Add to Cart</span>
             </button>

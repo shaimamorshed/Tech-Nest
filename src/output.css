@@ -687,6 +687,12 @@
   .max-h-\[85vh\] {
     max-height: 85vh;
   }
+  .min-h-56 {
+    min-height: calc(var(--spacing) * 56);
+  }
+  .min-h-64 {
+    min-height: calc(var(--spacing) * 64);
+  }
   .min-h-screen {
     min-height: 100vh;
   }
@@ -1221,6 +1227,9 @@
   }
   .items-start {
     align-items: flex-start;
+  }
+  .items-stretch {
+    align-items: stretch;
   }
   .justify-between {
     justify-content: space-between;
@@ -2042,6 +2051,9 @@
   }
   .pb-\[113\.19px\] {
     padding-bottom: 113.19px;
+  }
+  .pb-\[113\] {
+    padding-bottom: 113;
   }
   .pl-2 {
     padding-left: calc(var(--spacing) * 2);
