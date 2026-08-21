@@ -95,10 +95,9 @@ TechNest/
 
 3. Build Tailwind CSS (with live watch)
    ```bash
- npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+     npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
    ```
 
- ```
 4. Open `index.html` in your browser (or use a Live Server extension)
 
 ---
